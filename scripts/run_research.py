@@ -59,7 +59,7 @@ def main():
     print(f"  Blocked: {len(analysis.blocked_apps)} apps")
 
     # Step 4: Save combined dataset for HTML generation
-    print("\n💾 Step 4: Saving combined dataset...")
+    print("\n[*] Step 4: Saving combined dataset...")
     dataset = {
         "results": [r.model_dump() for r in results],
         "analysis": analysis.model_dump(),
@@ -70,9 +70,22 @@ def main():
         json.dump(dataset, f, indent=2, default=str)
     print(f"  Dataset saved to {dataset_path}")
 
+    # Step 5: Generate self-contained interactive HTML deliverable
+    print("\n[*] Step 5: Generating interactive HTML dashboard...")
+    try:
+        from scripts.generate_html import generate_html as gen_html
+        html = gen_html(dataset)
+        html_path = config.OUTPUT_DIR / "index.html"
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(html)
+        print(f"  HTML report generated at: {html_path}")
+    except Exception as e:
+        print(f"  Warning: Failed to generate HTML automatically: {e}")
+        print("  You can generate it manually with: py scripts/generate_html.py")
+
     print("\n" + "=" * 60)
-    print("  ✅ PIPELINE COMPLETE!")
-    print(f"  Next: python scripts/generate_html.py")
+    print("  [SUCCESS] PIPELINE COMPLETE!")
+    print(f"  View your report by opening: {config.OUTPUT_DIR / 'index.html'}")
     print("=" * 60)
 
 
