@@ -1,0 +1,62 @@
+{
+  "id": 21,
+  "name": "Slack",
+  "category": "Communications and Messaging",
+  "website": "slack.com",
+  "description": "A cloud-based team communication and collaboration platform offering messaging, file sharing, and extensive API integrations.",
+  "auth_methods": [
+    "oauth2",
+    "token",
+    "basic_auth"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://api.slack.com/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://www.npmjs.com/package/@modelcontextprotocol/server-slack",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Slack uses OAuth 2.0 to provide an installation flow that allows apps to be added to any workspace.",
+      "url": "https://api.slack.com/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Slack APIs provide access to read, write, and update many types of data in Slack.",
+      "url": "https://docs.slack.dev/apis/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "There is an official Model Context Protocol (MCP) server for the Slack API.",
+      "url": "https://www.npmjs.com/package/@modelcontextprotocol/server-slack",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "Slack offers a Developer Program with sandboxes for testing features.",
+      "url": "https://api.slack.com/developer-program",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Slack provides a comprehensive API ecosystem including Web API, Events API, and Socket Mode. It supports bot, user, and app-level tokens with granular scopes.",
+  "research_timestamp": "2026-09-17T12:26:10.018004",
+  "search_queries_used": [
+    "Slack API documentation developer",
+    "Slack authentication OAuth API key developer docs",
+    "site:slack.com API"
+  ],
+  "sources_consulted": 6
+}

@@ -1,0 +1,61 @@
+{
+  "id": 4,
+  "name": "Attio",
+  "category": "CRM and Sales",
+  "website": "attio.com",
+  "description": "Attio is a modern, AI-native CRM platform that provides a flexible data model and robust developer tools for building custom integrations and automations.",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.attio.com/rest-api/overview",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://docs.attio.com/mcp/overview",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Attio supports both OAuth 2.0 and API keys for authentication.",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Attio provides an official Model Context Protocol (MCP) server for connecting AI agents.",
+      "url": "https://docs.attio.com/mcp/overview",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Attio offers a REST API with full read and write access and webhook support.",
+      "url": "https://attio.com/platform/developers",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Attio has a developer console for managing apps and integrations.",
+      "url": "https://build.attio.com/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Attio is highly developer-friendly with a dedicated developer console, official MCP support, and clear documentation for both OAuth 2.0 and API key authentication.",
+  "research_timestamp": "2026-09-17T12:26:47.330248",
+  "search_queries_used": [
+    "Attio API documentation developer",
+    "Attio authentication OAuth API key developer docs",
+    "site:attio.com API"
+  ],
+  "sources_consulted": 6
+}
