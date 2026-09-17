@@ -1,0 +1,52 @@
+{
+  "id": 59,
+  "name": "Waterfall.io",
+  "category": "Data SEO and Scraping",
+  "website": "waterfall.io",
+  "description": "Waterfall.io provides contact and company prospecting, data enrichment, email verification, and an OpenAI-compatible API gateway with smart model routing.",
+  "auth_methods": [
+    "api_key",
+    "token"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "OpenAI-compatible"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.waterfall.io/v1/introduction",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Complete API reference for Waterfall covering contact finding, enrichment, email verification, etc.",
+      "url": "https://docs.waterfall.io/v1/introduction",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Waterfall is an OpenAI-compatible API gateway supporting free traffic or prepaid credits using an API key.",
+      "url": "https://getwaterfall.org/docs/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Waterfall has two notable product branches under similar names: contact data/enrichment APIs (docs.waterfall.io) and an OpenAI-compatible model routing API gateway (getwaterfall.org). Both use API keys.",
+  "research_timestamp": "2026-09-17T14:49:13.965491",
+  "search_queries_used": [
+    "Waterfall.io API documentation developer",
+    "Waterfall.io authentication OAuth API key developer docs",
+    "site:waterfall.io API"
+  ],
+  "sources_consulted": 5
+}

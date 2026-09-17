@@ -1,0 +1,57 @@
+{
+  "id": 89,
+  "name": "Ramp",
+  "category": "Finance and Fintech",
+  "website": "docs.ramp.com",
+  "description": "Corporate card, expense management, and financial automation platform providing APIs and MCP servers for spend management and bill pay.",
+  "auth_methods": [
+    "oauth2",
+    "basic_auth",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.ramp.com/developer-api/v1/overview",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/ramp-public/ramp_mcp",
+  "buildability": "buildable",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Ramp provides developer APIs for spend management, bills, and payment processing.",
+      "url": "https://docs.ramp.com/developer-api/v1/introduction",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Ramp offers an official MCP server for LLM integration.",
+      "url": "https://github.com/ramp-public/ramp_mcp",
+      "source_type": "github"
+    },
+    {
+      "claim": "Ramp supports OAuth2 authorization framework along with client ID and client secret credentials.",
+      "url": "https://docs.ramp.com/developer-api/v1/authorization",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Ramp provides a developer API as well as an official MCP server (ramp_mcp) using an ephemeral sqlite database for LLM analysis.",
+  "research_timestamp": "2026-09-17T15:07:20.468422",
+  "search_queries_used": [
+    "Ramp API documentation developer",
+    "Ramp authentication OAuth API key developer docs",
+    "site:docs.ramp.com API"
+  ],
+  "sources_consulted": 6
+}

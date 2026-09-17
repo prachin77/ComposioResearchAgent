@@ -1,0 +1,56 @@
+{
+  "id": 47,
+  "name": "Ecwid",
+  "category": "Ecommerce",
+  "website": "api-docs.ecwid.com",
+  "description": "Ecwid is an e-commerce platform that enables merchants to build online stores and integrate them across multiple sites, social media, and marketplaces.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://api-docs.ecwid.com/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/pranciskus/awesome-mcp-servers-6/blob/master/details/ecwid-mcp-server.md",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Ecwid uses OAuth 2.0 to provide secure access to store data for public apps, along with simplified tokens for single-store customizations.",
+      "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "REST API accepts up to 600 requests per minute per token.",
+      "url": "https://docs.ecwid.com/api-reference",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community MCP server available powered by Pipedream Connect.",
+      "url": "https://github.com/pranciskus/awesome-mcp-servers-6/blob/master/details/ecwid-mcp-server.md",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Ecwid provides a comprehensive REST API supporting products, orders, categories, payment/shipping options, and rate limits up to 600 requests per minute.",
+  "research_timestamp": "2026-09-17T14:42:08.050797",
+  "search_queries_used": [
+    "Ecwid API documentation developer",
+    "Ecwid authentication OAuth API key developer docs",
+    "site:api-docs.ecwid.com API"
+  ],
+  "sources_consulted": 5
+}

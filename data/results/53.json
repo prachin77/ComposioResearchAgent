@@ -1,0 +1,55 @@
+{
+  "id": 53,
+  "name": "Ahrefs",
+  "category": "Data SEO and Scraping",
+  "website": "ahrefs.com/api",
+  "description": "An SEO data and analytics platform providing keyword research, site auditing, backlink analysis, and ranking tracking via API v3.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "paid",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.ahrefs.com/api/docs/introduction.md",
+  "has_webhooks": false,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Ahrefs API v3 allows pulling data from Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management, and Content Helper endpoints.",
+      "url": "https://docs.ahrefs.com/api/docs/introduction.md",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "API keys are passed in the Authorization header as Bearer tokens: Authorization: Bearer YOUR_API_KEY.",
+      "url": "https://docs.ahrefs.com/api/docs/api-keys-creation-and-management.md",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Ahrefs API is available on eligible paid plans, with limited free test queries available on other plans.",
+      "url": "https://docs.ahrefs.com/api/docs/introduction.md",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "API v3 requires an API key passed via the Authorization Bearer header. While there are limited free test queries, full API usage requires an eligible paid Ahrefs plan.",
+  "research_timestamp": "2026-09-17T14:45:55.372164",
+  "search_queries_used": [
+    "Ahrefs API documentation developer",
+    "Ahrefs authentication OAuth API key developer docs",
+    "site:ahrefs.com/api API"
+  ],
+  "sources_consulted": 5
+}

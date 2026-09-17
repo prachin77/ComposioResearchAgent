@@ -1,0 +1,60 @@
+{
+  "id": 66,
+  "name": "Neo4j",
+  "category": "Developer Infra and Data Platforms",
+  "website": "neo4j.com/docs/api",
+  "description": "Graph database management system and data platform for connected data, offering native graph storage, Cypher query language, and official Model Context Protocol (MCP) servers.",
+  "auth_methods": [
+    "basic_auth",
+    "token",
+    "other"
+  ],
+  "primary_auth": "basic_auth",
+  "oauth2_available": false,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "Bolt",
+    "Query API",
+    "GraphQL",
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://neo4j.com/docs/api/",
+  "has_webhooks": false,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/neo4j/mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Neo4j provides official drivers and libraries for accessing the graph database",
+      "url": "https://neo4j.com/docs/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Basic and token-based authentication are supported via Authorization header",
+      "url": "https://github.com/neo4j-documentation/developer-guides",
+      "source_type": "github"
+    },
+    {
+      "claim": "Neo4j offers an official MCP server for bridging LLM clients and Neo4j graph databases",
+      "url": "https://neo4j.com/docs/mcp/current/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Neo4j provides official drivers in multiple languages (Python, JavaScript, Java, Go, .NET), a Query API supporting basic/bearer tokens, and official MCP support for connecting LLM clients directly to Neo4j and Aura instances.",
+  "research_timestamp": "2026-09-17T14:53:19.276910",
+  "search_queries_used": [
+    "Neo4j API documentation developer",
+    "Neo4j authentication OAuth API key developer docs",
+    "site:neo4j.com/docs/api API"
+  ],
+  "sources_consulted": 6
+}

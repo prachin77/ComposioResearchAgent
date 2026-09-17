@@ -1,0 +1,57 @@
+{
+  "id": 100,
+  "name": "Grain",
+  "category": "AI Research and Media-native",
+  "website": "grain.com",
+  "description": "Video messaging and meeting recording/transcription platform with an API for meeting notes, recordings, and real-time events.",
+  "auth_methods": [
+    "oauth2",
+    "token",
+    "api_key"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "paid",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://developers.grain.com/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/eadm/grain-mcp-server",
+  "buildability": "buildable",
+  "primary_blocker": "API access requires a paid subscription tier (Starter, Business, or Enterprise).",
+  "blocker_type": "paid",
+  "evidence": [
+    {
+      "claim": "Grain API provides endpoints to read meeting data, manage recordings, and receive real-time events.",
+      "url": "https://support.grain.com/en/articles/15507288-grain-api",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Grain supports OAuth2 Authorization Code flow, Personal Access Tokens (PAT), and Workspace Access Tokens (WAT).",
+      "url": "https://developers.grain.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Personal API access is available on Starter plan and above.",
+      "url": "https://support.grain.com/en/articles/15507288-grain-api",
+      "source_type": "help_center"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Personal API access (PAT) is available on Starter plan and above, while Workspace Access Tokens (WAT) require Business and Enterprise plans.",
+  "research_timestamp": "2026-09-17T15:13:34.799865",
+  "search_queries_used": [
+    "Grain API documentation developer",
+    "Grain authentication OAuth API key developer docs",
+    "site:grain.com API"
+  ],
+  "sources_consulted": 5
+}

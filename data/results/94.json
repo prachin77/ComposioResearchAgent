@@ -1,0 +1,56 @@
+{
+  "id": 94,
+  "name": "Consensus",
+  "category": "AI Research and Media-native",
+  "website": "consensus.app",
+  "description": "An AI-powered academic search engine allowing developers and AI agents to search over 220 million peer-reviewed papers and retrieve citations and metadata.",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://docs.consensus.app/core-features/api",
+  "has_webhooks": false,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/Consensus-NLP/consensus-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Consensus API lets you integrate research search into applications over a single REST endpoint with self-serve keys.",
+      "url": "https://docs.consensus.app/core-features/api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The Consensus Platform API uses OAuth 2.0 Authorization Code flow with PKCE.",
+      "url": "https://support.goconsensus.com/hubfs/consensus-oauth-guide+for+V2+API+(1).pdf",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Official Model Context Protocol server exists for connecting AI assistants to Consensus.",
+      "url": "https://github.com/Consensus-NLP/consensus-mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Consensus provides both self-serve API keys via their web application and an OAuth 2.0 flow for applications acting on behalf of users. They also offer an official Model Context Protocol (MCP) server.",
+  "research_timestamp": "2026-09-17T15:10:21.997109",
+  "search_queries_used": [
+    "Consensus API documentation developer",
+    "Consensus authentication OAuth API key developer docs",
+    "site:consensus.app API"
+  ],
+  "sources_consulted": 3
+}

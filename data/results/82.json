@@ -1,0 +1,61 @@
+{
+  "id": 82,
+  "name": "Plaid",
+  "category": "Finance and Fintech",
+  "website": "plaid.com/docs",
+  "description": "Financial technology platform that securely connects applications to thousands of banks for retrieving account information, transactions, balances, and more.",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://plaid.com/docs/api/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://pypi.org/project/mcp-server-plaid/",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "To gain access to the Plaid API, create an account on the Plaid Dashboard. Once you've completed the signup process... we'll provide a live client_id and secret via the Dashboard.",
+      "url": "https://plaid.com/docs/api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The Plaid API is JSON over HTTP.",
+      "url": "https://plaid.com/docs/api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "API reference for Plaid OAuth endpoints ... /oauth/token",
+      "url": "https://plaid.com/docs/api/oauth/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "mcp-server-plaid \u00b7 PyPI: A Model Context Protocol server for facilitating integration with Plaid.",
+      "url": "https://pypi.org/project/mcp-server-plaid/",
+      "source_type": "third_party"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Plaid provides self-service sandbox access via the Plaid Dashboard, issuing client_id and secret credentials upon signup. Production access can also be requested through the dashboard.",
+  "research_timestamp": "2026-09-17T15:02:52.561625",
+  "search_queries_used": [
+    "Plaid API documentation developer",
+    "Plaid authentication OAuth API key developer docs",
+    "site:plaid.com/docs API"
+  ],
+  "sources_consulted": 6
+}

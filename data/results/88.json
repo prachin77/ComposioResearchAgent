@@ -1,0 +1,56 @@
+{
+  "id": 88,
+  "name": "Brex",
+  "category": "Finance and Fintech",
+  "website": "developer.brex.com",
+  "description": "Unified spend platform providing global corporate cards, expense management, reimbursements, travel, and bill pay with a comprehensive public API.",
+  "auth_methods": [
+    "token",
+    "oauth2"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.brex.com/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developer.brex.com/docs/mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Brex provides public REST APIs across accounting, budgets, expenses, onboarding, payments, team, transactions, travel, and webhooks.",
+      "url": "https://developer.brex.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Authentication uses user tokens generated via the Brex dashboard passed as Bearer tokens in headers.",
+      "url": "https://developer.brex.com/guides/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Brex offers an official Model Context Protocol (MCP) server for AI assistants.",
+      "url": "https://developer.brex.com/docs/mcp",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Brex requires a Brex customer account with admin access and developer API terms agreement to generate user access tokens.",
+  "research_timestamp": "2026-09-17T15:06:54.850813",
+  "search_queries_used": [
+    "Brex API documentation developer",
+    "Brex authentication OAuth API key developer docs",
+    "site:developer.brex.com API"
+  ],
+  "sources_consulted": 6
+}

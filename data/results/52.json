@@ -1,0 +1,60 @@
+{
+  "id": 52,
+  "name": "SE Ranking",
+  "category": "Data SEO and Scraping",
+  "website": "seranking.com/api",
+  "description": "An all-in-one SEO and digital marketing platform providing comprehensive data APIs and project management tools for keywords, backlinks, rank tracking, and domain analysis.",
+  "auth_methods": [
+    "token"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://seranking.com/api/",
+  "has_webhooks": false,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://seranking.com/api/integrations/mcp/",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "SE Ranking offers two APIs (Data API and Project API) authenticated with a single API key using Token auth.",
+      "url": "https://seranking.com/api/how-to-get-api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Keyword Research API supports bulk keyword data retrieval via REST POST requests.",
+      "url": "https://seranking.com/api/data/keyword-research/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "SE Ranking provides an official Model Context Protocol (MCP) server for integration with AI assistants.",
+      "url": "https://seranking.com/api/integrations/mcp/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "SE Ranking offers official client libraries, tools, and sample projects on GitHub.",
+      "url": "https://github.com/seranking/",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "SE Ranking provides both a Data API (credit-based) and a Project API (subscription-limit based) authenticated via a single API key using token auth. They also offer an official Model Context Protocol (MCP) server for native AI client integrations.",
+  "research_timestamp": "2026-09-17T14:45:19.165026",
+  "search_queries_used": [
+    "SE Ranking API documentation developer",
+    "SE Ranking authentication OAuth API key developer docs",
+    "site:seranking.com/api API"
+  ],
+  "sources_consulted": 3
+}

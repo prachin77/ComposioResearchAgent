@@ -1,0 +1,56 @@
+{
+  "id": 76,
+  "name": "Monday.com",
+  "category": "Productivity and Project Management",
+  "website": "developer.monday.com",
+  "description": "A work OS and project management platform providing a GraphQL API, apps framework, and MCP servers for workflow automation and data tracking.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "GraphQL"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.monday.com/api-reference/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/mondaycom/mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Monday.com platform API utilizes personal V2 API tokens and OAuth support",
+      "url": "https://developer.monday.com/api-reference/docs/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "GraphQL API provides broad coverage to read and modify boards, leads, docs, updates, and more",
+      "url": "https://developer.monday.com/api-reference/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Monday.com provides official MCP servers to connect AI assistants",
+      "url": "https://github.com/mondaycom/mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Monday.com provides a comprehensive GraphQL Platform API, robust OAuth and API token support, and official Model Context Protocol (MCP) server support for AI integrations.",
+  "research_timestamp": "2026-09-17T14:59:03.772510",
+  "search_queries_used": [
+    "Monday.com API documentation developer",
+    "Monday.com authentication OAuth API key developer docs",
+    "site:developer.monday.com API"
+  ],
+  "sources_consulted": 6
+}

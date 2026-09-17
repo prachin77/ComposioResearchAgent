@@ -1,0 +1,51 @@
+{
+  "id": 79,
+  "name": "Smartsheet",
+  "category": "Productivity and Project Management",
+  "website": "smartsheet.com/developers",
+  "description": "A cloud-based platform for work management, project tracking, and collaboration, offering an API and official MCP server support.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://developers.smartsheet.com/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Smartsheet provides an official MCP server for connecting AI clients to Smartsheet data.",
+      "url": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community MCP servers exist for interacting with the Smartsheet API.",
+      "url": "https://github.com/josh-cornett/smartsheetmcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Smartsheet provides robust REST API capabilities alongside an official Model Context Protocol (MCP) server for AI integrations.",
+  "research_timestamp": "2026-09-17T15:00:55.275470",
+  "search_queries_used": [
+    "Smartsheet API documentation developer",
+    "Smartsheet authentication OAuth API key developer docs",
+    "site:smartsheet.com/developers API"
+  ],
+  "sources_consulted": 0
+}

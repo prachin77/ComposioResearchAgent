@@ -1,0 +1,61 @@
+{
+  "id": 78,
+  "name": "Coda",
+  "category": "Productivity and Project Management",
+  "website": "coda.io/developers",
+  "description": "An all-in-one collaborative workspace that blends documents, spreadsheets, and applications into a single canvas.",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://coda.io/developers/apis/v1beta1",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/orellazri/coda-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Coda has a REST API with documentation covering documents, pages, tables, rows, etc.",
+      "url": "https://coda.io/developers/apis/v1beta1",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Python wrapper codaio uses API keys for authentication.",
+      "url": "https://codaio.readthedocs.io/en/latest/",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "Coda supports OAuth2 authentication for integrations and packs.",
+      "url": "https://coda.io/packs/build/latest/guides/basics/authentication/oauth2/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community MCP servers exist for Coda, providing tools to interact with Coda documents and pages.",
+      "url": "https://github.com/orellazri/coda-mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Coda provides a robust REST API capable of managing documents, pages, tables, rows, formulas, and more. Community MCP servers and Python wrappers are readily available.",
+  "research_timestamp": "2026-09-17T15:00:20.640810",
+  "search_queries_used": [
+    "Coda API documentation developer",
+    "Coda authentication OAuth API key developer docs",
+    "site:coda.io/developers API"
+  ],
+  "sources_consulted": 6
+}

@@ -1,0 +1,58 @@
+{
+  "id": 45,
+  "name": "Magento (Adobe Commerce)",
+  "category": "Ecommerce",
+  "website": "developer.adobe.com/commerce",
+  "description": "Enterprise-grade eCommerce platform providing robust REST and GraphQL APIs for catalog, customer, and order management.",
+  "auth_methods": [
+    "oauth",
+    "token",
+    "other"
+  ],
+  "primary_auth": "oauth",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.adobe.com/commerce/webapi/rest/reference/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/Codexpect/adobe-commerce-mcp",
+  "buildability": "buildable",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Adobe Commerce and Magento Open Source provide comprehensive REST and GraphQL APIs.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/reference/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "OAuth authentication with Adobe Commerce and Magento Open Source is based on OAuth 1.0a.",
+      "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community MCP server implementations exist for Adobe Commerce/Magento REST API integration.",
+      "url": "https://github.com/Codexpect/adobe-commerce-mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Adobe Commerce and Magento Open Source rely on OAuth 1.0a or tokens for REST integration, and Adobe IMS for Cloud SaaS services. Community MCP servers are available for connecting LLMs and agent builders.",
+  "research_timestamp": "2026-09-17T14:41:03.892727",
+  "search_queries_used": [
+    "Magento (Adobe Commerce) API documentation developer",
+    "Magento (Adobe Commerce) authentication OAuth API key developer docs",
+    "site:developer.adobe.com/commerce API"
+  ],
+  "sources_consulted": 6
+}

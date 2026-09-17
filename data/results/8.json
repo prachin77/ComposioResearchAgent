@@ -1,0 +1,66 @@
+{
+  "id": 8,
+  "name": "Close",
+  "category": "CRM and Sales",
+  "website": "close.com",
+  "description": "Close is a sales-focused CRM designed for startups and SMBs, offering tools for lead management, communication, and sales automation.",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "free_trial",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://developer.close.com/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/ShiftEngineering/mcp-close-server",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Close provides an official MCP server for AI agents like Claude and ChatGPT.",
+      "url": "https://developer.close.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Close supports OAuth2 for building integrations for many customers.",
+      "url": "https://developer.close.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Close offers a 14-day free trial and self-serve signup.",
+      "url": "https://close.com/api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Close maintains an official Python API client.",
+      "url": "https://github.com/closeio/closeio-api",
+      "source_type": "github"
+    },
+    {
+      "claim": "The API supports webhooks for streaming data changes.",
+      "url": "https://developer.close.com/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Close explicitly mentions support for AI agents and MCP servers in their official developer documentation. They provide an officially maintained Python SDK and support both API keys for internal use and OAuth2 for third-party integrations.",
+  "research_timestamp": "2026-09-17T12:50:57.735222",
+  "search_queries_used": [
+    "Close API documentation developer",
+    "Close authentication OAuth API key developer docs",
+    "site:close.com API"
+  ],
+  "sources_consulted": 5
+}

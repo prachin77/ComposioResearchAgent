@@ -1,0 +1,55 @@
+{
+  "id": 33,
+  "name": "LinkedIn Ads",
+  "category": "Marketing Ads Email and Social",
+  "website": "learn.microsoft.com/linkedin/marketing",
+  "description": "Manage LinkedIn advertising campaigns, ad accounts, creatives, and audience targeting through the LinkedIn Marketing Developer Platform.",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "admin_approval",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://learn.microsoft.com/linkedin/marketing",
+  "has_webhooks": false,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/mharnett/mcp-linkedin-ads",
+  "buildability": "gated",
+  "primary_blocker": "Advertising API access requires application submission and partner/admin approval from LinkedIn.",
+  "blocker_type": "partner",
+  "evidence": [
+    {
+      "claim": "The LinkedIn API uses OAuth 2.0 for member authorization and API authentication.",
+      "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "To apply for access to private APIs, first submit an application for the Advertising API with an ads management or reporting use case.",
+      "url": "https://developer.linkedin.com/product-catalog/marketing/advertising-api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community MCP server exists for LinkedIn Campaign Manager and Ads management.",
+      "url": "https://github.com/mharnett/mcp-linkedin-ads",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Access to LinkedIn Marketing APIs requires creating an app on the LinkedIn Developer Portal and explicitly applying for the Advertising API product catalog. It uses 3-legged OAuth 2.0.",
+  "research_timestamp": "2026-09-17T14:34:27.250400",
+  "search_queries_used": [
+    "LinkedIn Ads API documentation developer",
+    "LinkedIn Ads authentication OAuth API key developer docs",
+    "site:learn.microsoft.com/linkedin/marketing API"
+  ],
+  "sources_consulted": 6
+}

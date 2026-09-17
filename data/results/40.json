@@ -1,0 +1,55 @@
+{
+  "id": 40,
+  "name": "SendGrid",
+  "category": "Marketing Ads Email and Social",
+  "website": "sendgrid.com",
+  "description": "Cloud-based email delivery, marketing campaigns, and transactional email infrastructure API platform by Twilio.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/Garoth/sendgrid-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "SendGrid v3 API reference provides complete documentation for REST endpoints.",
+      "url": "https://www.twilio.com/docs/sendgrid/api-reference",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Authorization uses Bearer Token with full SENDGRID_API_KEY.",
+      "url": "https://support.sendgrid.com/hc/en-us/articles/35566831877659-Bulk-Email-Validation-API-request-via-Postman",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Community-built MCP server exists for SendGrid email marketing and contact management.",
+      "url": "https://github.com/Garoth/sendgrid-mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "SendGrid uses Bearer token authentication via API Keys for its v3 REST API endpoints. There are community-built MCP servers available for AI integration.",
+  "research_timestamp": "2026-09-17T14:37:59.628183",
+  "search_queries_used": [
+    "SendGrid API documentation developer",
+    "SendGrid authentication OAuth API key developer docs",
+    "site:sendgrid.com API"
+  ],
+  "sources_consulted": 6
+}

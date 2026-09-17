@@ -1,0 +1,56 @@
+{
+  "id": 71,
+  "name": "Notion",
+  "category": "Productivity and Project Management",
+  "website": "developers.notion.com",
+  "description": "All-in-one workspace for notes, tasks, wikis, and databases with a robust developer platform.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://developers.notion.com/reference/intro",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developers.notion.com/guides/mcp/overview",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Notion uses OAuth 2.0 for public connections and static installation tokens or personal access tokens for internal and personal use.",
+      "url": "https://developers.notion.com/guides/get-started/authorization",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Notion provides a complete REST API for working with pages, databases, blocks, search, and version headers.",
+      "url": "https://agentsapis.com/notion-api/",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "Notion offers an official Model Context Protocol (MCP) remote server to connect AI clients to Notion workspaces.",
+      "url": "https://developers.notion.com/guides/mcp/overview",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Notion offers a comprehensive public REST API supporting pages, databases, blocks, and search, alongside official SDKs, OAuth 2.0 flows, internal connections, and an official Model Context Protocol (MCP) server.",
+  "research_timestamp": "2026-09-17T14:56:28.881255",
+  "search_queries_used": [
+    "Notion API documentation developer",
+    "Notion authentication OAuth API key developer docs",
+    "site:developers.notion.com API"
+  ],
+  "sources_consulted": 6
+}

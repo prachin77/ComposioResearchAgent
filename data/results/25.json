@@ -1,0 +1,52 @@
+{
+  "id": 25,
+  "name": "Pumble",
+  "category": "Communications and Messaging",
+  "website": "pumble.com",
+  "description": "Team collaboration and messaging app featuring channels, direct messages, files, and workspace management.",
+  "auth_methods": [
+    "api_key",
+    "token",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://api-ga.pumble.com/v3/api-docs/Pumble-api-v1",
+  "has_webhooks": false,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Pumble API addon allows generating API keys for HTTP requests supporting sending messages, reactions, etc.",
+      "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Pumble provides a REST integration API with OpenAPI docs and a Node SDK.",
+      "url": "https://api-ga.pumble.com/v3/api-docs/Pumble-api-v1",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Pumble offers both a simpler API addon (API keys) and a more advanced integration API requiring app tokens and user/bot tokens. A Node SDK is available for integration.",
+  "research_timestamp": "2026-09-17T14:30:52.216906",
+  "search_queries_used": [
+    "Pumble API documentation developer",
+    "Pumble authentication OAuth API key developer docs",
+    "site:pumble.com API"
+  ],
+  "sources_consulted": 5
+}

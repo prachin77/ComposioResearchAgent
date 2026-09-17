@@ -1,0 +1,56 @@
+{
+  "id": 68,
+  "name": "MongoDB Atlas",
+  "category": "Developer Infra and Data Platforms",
+  "website": "mongodb.com/docs/atlas/api",
+  "description": "Cloud-hosted multi-cloud database-as-a-service (DBaaS) providing managed MongoDB databases, vector search, and administrative APIs.",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://www.mongodb.com/docs/atlas/api/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/mongodb-js/mongodb-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "The Atlas Administration API accepts OAuth 2.0 service account access tokens and API keys with HTTP Digest Authentication.",
+      "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The Atlas Go SDK helps build applications interacting with Atlas using the Administration API.",
+      "url": "https://www.mongodb.com/docs/atlas/api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "MongoDB provides an official Model Context Protocol server for interacting with MongoDB deployments and Atlas.",
+      "url": "https://www.mongodb.com/docs/mcp-server/overview/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "MongoDB Atlas provides comprehensive administration APIs via OAuth 2.0 (Service Accounts) and HTTP Digest (API keys), Go SDK, and an official MCP server for interacting with deployments.",
+  "research_timestamp": "2026-09-17T14:54:39.946605",
+  "search_queries_used": [
+    "MongoDB Atlas API documentation developer",
+    "MongoDB Atlas authentication OAuth API key developer docs",
+    "site:mongodb.com/docs/atlas/api API"
+  ],
+  "sources_consulted": 6
+}

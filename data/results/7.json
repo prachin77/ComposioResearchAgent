@@ -1,0 +1,57 @@
+{
+  "id": 7,
+  "name": "Zoho CRM",
+  "category": "CRM and Sales",
+  "website": "zoho.com/crm",
+  "description": "Zoho CRM is a customer relationship management platform offering sales force automation, customer support, and comprehensive business process management.",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "GraphQL",
+    "Bulk"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Zoho CRM provides V8 APIs for custom solutions and integrations.",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "OAuth 2.0 protocol is used for Zoho CRM API authentication.",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Zoho MCP provides servers to connect AI tools to Zoho CRM using the Model Context Protocol.",
+      "url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Zoho CRM provides extensive APIs (including V8 APIs, COQL, and bulk APIs), official SDKs across multiple languages (Python, PHP, Node.js, etc.), and native support for Model Context Protocol (MCP) server configurations.",
+  "research_timestamp": "2026-09-17T14:28:04.862105",
+  "search_queries_used": [
+    "Zoho CRM API documentation developer",
+    "Zoho CRM authentication OAuth API key developer docs",
+    "site:zoho.com/crm API"
+  ],
+  "sources_consulted": 6
+}

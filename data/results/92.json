@@ -1,0 +1,56 @@
+{
+  "id": 92,
+  "name": "Otter AI",
+  "category": "AI Research and Media-native",
+  "website": "help.otter.ai",
+  "description": "AI-powered meeting transcription, notes, and collaboration tool with public API and MCP server support",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "paid",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://connect.tryotter.com/docs/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+  "buildability": "gated",
+  "primary_blocker": "Public API requires an Otter Enterprise plan and admin permissions or partner account manager enablement.",
+  "blocker_type": "enterprise",
+  "evidence": [
+    {
+      "claim": "Otter.ai's Public API provides programmatic access to retrieve channels, conversations, transcripts, audio, action items, insights, outlines, and workspace details from your Otter account for Enterprise plan.",
+      "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Otter REST API is secured by OAuth 2.0.",
+      "url": "https://connect.tryotter.com/docs/api-reference/reference/otter-api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Otter provides an official MCP Server for connecting AI models like Claude and ChatGPT using Model Context Protocol.",
+      "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "source_type": "help_center"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Otter provides an official Model Context Protocol (MCP) server for Claude and ChatGPT integration. Its standard public REST API requires Enterprise access.",
+  "research_timestamp": "2026-09-17T15:09:15.915491",
+  "search_queries_used": [
+    "Otter AI API documentation developer",
+    "Otter AI authentication OAuth API key developer docs",
+    "site:help.otter.ai API"
+  ],
+  "sources_consulted": 3
+}

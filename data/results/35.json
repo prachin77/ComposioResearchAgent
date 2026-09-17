@@ -1,0 +1,56 @@
+{
+  "id": 35,
+  "name": "Mailchimp",
+  "category": "Marketing Ads Email and Social",
+  "website": "mailchimp.com/developer",
+  "description": "An all-in-one marketing, automation, and email platform that allows businesses to manage mailing lists, create campaigns, and track customer engagement.",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://mailchimp.com/developer/marketing/docs/integrations/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/damientilman/mailchimp-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Mailchimp supports both OAuth 2.0 and API keys for authentication.",
+      "url": "https://mailchimp.com/developer/marketing/docs/integrations/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Mailchimp provides a comprehensive REST Marketing API (v3.0).",
+      "url": "https://aeroleads.com/blog/getting-started-with-mailchimp-api-developer-documentation/",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "Community-built MCP servers exist for Mailchimp Marketing API integration.",
+      "url": "https://github.com/damientilman/mailchimp-mcp-server",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Mailchimp offers a robust REST Marketing API supporting API keys for internal scripts/server-side tools and OAuth 2.0 for user-facing applications and integrations.",
+  "research_timestamp": "2026-09-17T14:35:26.667977",
+  "search_queries_used": [
+    "Mailchimp API documentation developer",
+    "Mailchimp authentication OAuth API key developer docs",
+    "site:mailchimp.com/developer API"
+  ],
+  "sources_consulted": 5
+}

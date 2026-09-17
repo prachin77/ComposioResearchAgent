@@ -1,0 +1,67 @@
+{
+  "id": 9,
+  "name": "Copper",
+  "category": "CRM and Sales",
+  "website": "copper.com",
+  "description": "A CRM platform designed for Google Workspace users to manage leads, contacts, and sales pipelines.",
+  "auth_methods": [
+    "oauth2",
+    "api_key",
+    "token"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "free_trial",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://developer.copper.com/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/StreetsDigital/coppermcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Copper supports both API keys and OAuth2.0 for authentication.",
+      "url": "https://developer.copper.com/introduction/authentication.html",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "API Keys are suitable for individual users and can be generated in the web app under System settings > API Keys.",
+      "url": "https://developer.copper.com/introduction/authentication.html",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The API provides a RESTful interface with JSON-formatted responses to access most Copper resources.",
+      "url": "https://developer.copper.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "A community MCP server for Copper exists on GitHub.",
+      "url": "https://github.com/StreetsDigital/coppermcp",
+      "source_type": "github"
+    },
+    {
+      "claim": "The API uses token-based authentication where the token and email address must be included in the header.",
+      "url": "https://developer.copper.com/introduction/authentication.html",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "API Key authentication requires both the API token and the user's email address in the request headers. OAuth2 is available but primarily recommended for partner integrations.",
+  "research_timestamp": "2026-09-17T12:51:38.341699",
+  "search_queries_used": [
+    "Copper API documentation developer",
+    "Copper authentication OAuth API key developer docs",
+    "site:copper.com API"
+  ],
+  "sources_consulted": 5
+}

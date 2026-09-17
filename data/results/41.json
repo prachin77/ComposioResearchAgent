@@ -1,0 +1,57 @@
+{
+  "id": 41,
+  "name": "Shopify",
+  "category": "Ecommerce",
+  "website": "shopify.dev",
+  "description": "An ecommerce platform offering comprehensive REST and GraphQL APIs for managing storefronts, products, orders, and customer data.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://shopify.dev/docs/api",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Shopify offers a suite of APIs allowing developers to extend platform features, manage store data, and build custom commerce experiences.",
+      "url": "https://shopify.dev/docs/api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "All APIs require authentication and rate limits apply.",
+      "url": "https://shopify.dev/docs/api/usage",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Storefront MCP server available for connecting AI assistants to real-time commerce data from Shopify stores.",
+      "url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Shopify provides extremely robust developer tools, official GraphQL and REST Admin/Storefront APIs, official Storefront MCP servers, and a self-serve partner dashboard.",
+  "research_timestamp": "2026-09-17T14:38:37.494095",
+  "search_queries_used": [
+    "Shopify API documentation developer",
+    "Shopify authentication OAuth API key developer docs",
+    "site:shopify.dev API"
+  ],
+  "sources_consulted": 5
+}

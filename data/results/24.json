@@ -1,0 +1,56 @@
+{
+  "id": 24,
+  "name": "Lark",
+  "category": "Communications and Messaging",
+  "website": "open.larksuite.com",
+  "description": "Lark (Larksuite) is an enterprise collaboration platform combining chat, calendar, docs, video conferencing, and custom app integration tools.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://open.larksuite.com/document/home/index?lang=en-US",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Lark Developer provides tools and resources for developers to create and integrate custom apps, bots, and services within Lark's platform.",
+      "url": "https://www.larksuite.com/hc/en-US/category/7319409235194839046-lark-developer",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Lark supports obtaining OAuth codes and user access tokens via Server APIs.",
+      "url": "https://open.larksuite.com/document/common-capabilities/sso/api/obtain-oauth-code",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Lark Developer Documentation acts as a comprehensive hub for guides, tutorials, and server APIs.",
+      "url": "https://open.larksuite.com/document/home/index?lang=en-US",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Lark provides comprehensive developer tools and robust server APIs, supporting OAuth2 authorization flows and bot/app creation through the Lark Developer platform.",
+  "research_timestamp": "2026-09-17T14:30:22.006270",
+  "search_queries_used": [
+    "Lark API documentation developer",
+    "Lark authentication OAuth API key developer docs",
+    "site:open.larksuite.com API"
+  ],
+  "sources_consulted": 6
+}

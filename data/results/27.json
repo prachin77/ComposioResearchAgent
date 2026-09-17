@@ -1,0 +1,63 @@
+{
+  "id": 27,
+  "name": "Telegram",
+  "category": "Communications and Messaging",
+  "website": "core.telegram.org",
+  "description": "Cloud-based instant messaging and voice-over-IP service offering multiple APIs including Bot API, MTProto API, and Gateway API.",
+  "auth_methods": [
+    "token",
+    "api_key",
+    "other"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "MTProto"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://core.telegram.org/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/chigwell/telegram-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Telegram offers three kinds of APIs for developers: Bot API, Telegram API (MTProto), and TDLib, plus the Gateway API.",
+      "url": "https://core.telegram.org/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram.",
+      "url": "https://core.telegram.org/bots/api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The Telegram Gateway API uses an access token passed via Authorization Bearer header or access_token parameter.",
+      "url": "https://core.telegram.org/gateway/verification-tutorial",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community-built Model Context Protocol (MCP) servers exist to bridge Telegram with AI assistants.",
+      "url": "https://github.com/chigwell/telegram-mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Telegram offers multiple APIs including the Bot API (HTTP-based, uses bot tokens), the MTProto API (requires api_id and api_hash for custom clients), and the Gateway API (uses Bearer tokens for verification codes).",
+  "research_timestamp": "2026-09-17T14:31:41.516676",
+  "search_queries_used": [
+    "Telegram API documentation developer",
+    "Telegram authentication OAuth API key developer docs",
+    "site:core.telegram.org API"
+  ],
+  "sources_consulted": 6
+}

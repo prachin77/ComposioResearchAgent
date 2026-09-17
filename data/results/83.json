@@ -1,0 +1,58 @@
+{
+  "id": 83,
+  "name": "Binance",
+  "category": "Finance and Fintech",
+  "website": "binance-docs.github.io",
+  "description": "Cryptocurrency exchange providing spot, margin, futures, and options trading APIs for digital assets.",
+  "auth_methods": [
+    "api_key",
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "WebSocket"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.binance.com/en/docs/introduction",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developers.binance.com/en/docs/agent-native/mcp-server/agentic",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Official Binance API documentation covering spot, derivatives, margin, wallet, and Web3.",
+      "url": "https://developers.binance.com/en/docs/introduction",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Binance provides an official Model Context Protocol (MCP) server for AI agents.",
+      "url": "https://developers.binance.com/en/docs/agent-native/mcp-server/agentic",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Binance OAuth allows users to share specific data with third-party applications.",
+      "url": "https://developers.binance.com/en/landingpage/oauth",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Binance offers comprehensive APIs for spot, derivatives, wallet, and Web3, alongside an official Model Context Protocol (MCP) server for agent-native interactions.",
+  "research_timestamp": "2026-09-17T15:03:33.378983",
+  "search_queries_used": [
+    "Binance API documentation developer",
+    "Binance authentication OAuth API key developer docs",
+    "site:binance-docs.github.io API"
+  ],
+  "sources_consulted": 3
+}

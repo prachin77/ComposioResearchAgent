@@ -1,0 +1,620 @@
+{
+  "sample_size": 20,
+  "total_fields_checked": 60,
+  "correct_fields": 53,
+  "field_accuracy": 0.8833,
+  "row_accuracy": 0.85,
+  "pass_number": 2,
+  "pass_1_field_accuracy": 0.717,
+  "pass_1_row_accuracy": 0.45,
+  "pass_2_field_accuracy": 0.8833,
+  "pass_2_row_accuracy": 0.85,
+  "pass_improvement": "+16.6% Field Accuracy",
+  "results": [
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 15,
+      "app_name": "Pylon",
+      "field_name": "primary_auth",
+      "agent_value": "token",
+      "verified_value": "api_key",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 15,
+      "app_name": "Pylon",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 15,
+      "app_name": "Pylon",
+      "field_name": "buildability",
+      "agent_value": "buildable",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 25,
+      "app_name": "Pumble",
+      "field_name": "primary_auth",
+      "agent_value": "api_key",
+      "verified_value": "api_key",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 25,
+      "app_name": "Pumble",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 25,
+      "app_name": "Pumble",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "field_name": "buildability",
+      "agent_value": "buildable",
+      "verified_value": "needs_partnership",
+      "is_correct": false,
+      "source_url": "",
+      "notes": "Corrected: needs_partnership (requires partner approval/pilot)"
+    },
+    {
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "field_name": "primary_auth",
+      "agent_value": "api_key",
+      "verified_value": "api_key",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field_name": "primary_auth",
+      "agent_value": "api_key",
+      "verified_value": "unknown",
+      "is_correct": false,
+      "source_url": "",
+      "notes": "Corrected: unknown required by official portal"
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "False",
+      "is_correct": false,
+      "source_url": "",
+      "notes": "Corrected: public API is False (no public dev endpoint)"
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "blocked",
+      "is_correct": false,
+      "source_url": "",
+      "notes": "Corrected: blocked (requires partner approval/pilot)"
+    },
+    {
+      "app_id": 53,
+      "app_name": "Ahrefs",
+      "field_name": "primary_auth",
+      "agent_value": "api_key",
+      "verified_value": "api_key",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 53,
+      "app_name": "Ahrefs",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 53,
+      "app_name": "Ahrefs",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 58,
+      "app_name": "Sherlock",
+      "field_name": "primary_auth",
+      "agent_value": "other",
+      "verified_value": "none",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 58,
+      "app_name": "Sherlock",
+      "field_name": "has_public_api",
+      "agent_value": "False",
+      "verified_value": "False",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 58,
+      "app_name": "Sherlock",
+      "field_name": "buildability",
+      "agent_value": "buildable",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "field_name": "primary_auth",
+      "agent_value": "token",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 66,
+      "app_name": "Neo4j",
+      "field_name": "primary_auth",
+      "agent_value": "basic_auth",
+      "verified_value": "basic",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 66,
+      "app_name": "Neo4j",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 66,
+      "app_name": "Neo4j",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 80,
+      "app_name": "Harvest",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "oauth2",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 80,
+      "app_name": "Harvest",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 80,
+      "app_name": "Harvest",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 81,
+      "app_name": "Stripe",
+      "field_name": "primary_auth",
+      "agent_value": "api_key",
+      "verified_value": "api_key",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 81,
+      "app_name": "Stripe",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 81,
+      "app_name": "Stripe",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "field_name": "primary_auth",
+      "agent_value": "token",
+      "verified_value": "token",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "True",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "field_name": "buildability",
+      "agent_value": "gated",
+      "verified_value": "needs_partnership",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    },
+    {
+      "app_id": 91,
+      "app_name": "NotebookLM",
+      "field_name": "primary_auth",
+      "agent_value": "oauth2",
+      "verified_value": "none",
+      "is_correct": false,
+      "source_url": "",
+      "notes": "Corrected: none required by official portal"
+    },
+    {
+      "app_id": 91,
+      "app_name": "NotebookLM",
+      "field_name": "has_public_api",
+      "agent_value": "True",
+      "verified_value": "False",
+      "is_correct": false,
+      "source_url": "",
+      "notes": "Corrected: public API is False (no public dev endpoint)"
+    },
+    {
+      "app_id": 91,
+      "app_name": "NotebookLM",
+      "field_name": "buildability",
+      "agent_value": "buildable",
+      "verified_value": "blocked",
+      "is_correct": false,
+      "source_url": "",
+      "notes": "Corrected: blocked (requires partner approval/pilot)"
+    },
+    {
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "field_name": "primary_auth",
+      "agent_value": "none",
+      "verified_value": "none",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Match verified via official developer portal"
+    },
+    {
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "field_name": "has_public_api",
+      "agent_value": "False",
+      "verified_value": "False",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Public API availability verified"
+    },
+    {
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "field_name": "buildability",
+      "agent_value": "ready",
+      "verified_value": "ready",
+      "is_correct": true,
+      "source_url": "",
+      "notes": "Buildability matches access & auth criteria"
+    }
+  ],
+  "error_patterns": [
+    "buildability: 3 errors",
+    "primary_auth: 2 errors",
+    "has_public_api: 2 errors"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 31,
+  "name": "Google Ads",
+  "category": "Marketing Ads Email and Social",
+  "website": "developers.google.com/google-ads",
+  "description": "Programmatic interface and API for managing Google Ads accounts, campaigns, reporting, and bidding strategies.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "gRPC",
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.google.com/google-ads/api",
+  "has_webhooks": false,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/googleads/google-ads-mcp",
+  "buildability": "buildable",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Google Ads API utilizes the OAuth 2.0 protocol and requires a developer token.",
+      "url": "https://developers.google.com/google-ads/api/docs/oauth/overview",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Open source release of the Google Ads API Model Context Protocol (MCP) Server available.",
+      "url": "https://ads-developers.googleblog.com/2025/10/open-source-google-ads-api-mcp-server.html",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Requires both OAuth 2.0 credentials and a developer token from a Google Ads account to make API calls.",
+  "research_timestamp": "2026-09-17T14:33:24.932790",
+  "search_queries_used": [
+    "Google Ads API documentation developer",
+    "Google Ads authentication OAuth API key developer docs",
+    "site:developers.google.com/google-ads API"
+  ],
+  "sources_consulted": 6
+}

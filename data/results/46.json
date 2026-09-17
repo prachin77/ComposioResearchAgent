@@ -1,0 +1,56 @@
+{
+  "id": 46,
+  "name": "Squarespace",
+  "category": "Ecommerce",
+  "website": "developers.squarespace.com",
+  "description": "Squarespace provides developer APIs and tools to manage e-commerce features, orders, inventory, products, and customer contacts on merchant sites.",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://developers.squarespace.com/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developers-preview.squarespace.com/mcp/overview",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Squarespace offers Commerce APIs to read and write orders, products, inventory, and transactions via REST endpoints and webhooks.",
+      "url": "https://developers.squarespace.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Authentication uses API keys or OAuth access tokens.",
+      "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions.md",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Squarespace provides an official MCP server connecting AI assistants to Squarespace.",
+      "url": "https://developers-preview.squarespace.com/mcp/overview",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Squarespace offers Commerce APIs for managing orders, products, inventory, transactions, and contacts, along with official Model Context Protocol (MCP) server integration support.",
+  "research_timestamp": "2026-09-17T14:41:34.658500",
+  "search_queries_used": [
+    "Squarespace API documentation developer",
+    "Squarespace authentication OAuth API key developer docs",
+    "site:developers.squarespace.com API"
+  ],
+  "sources_consulted": 5
+}

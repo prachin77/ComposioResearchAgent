@@ -1,0 +1,56 @@
+{
+  "id": 62,
+  "name": "Vercel",
+  "category": "Developer Infra and Data Platforms",
+  "website": "vercel.com/docs/rest-api",
+  "description": "A cloud platform for static sites and Frontend workflows that enables developers to host web apps with serverless functions and manage domains, storage, and integrations via REST API and MCP.",
+  "auth_methods": [
+    "token",
+    "oauth2"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://vercel.com/docs/rest-api",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://mcp.vercel.com",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Vercel provides a REST API and a type-safe TypeScript SDK (@vercel/sdk) for interacting with Vercel resources.",
+      "url": "https://vercel.com/docs/rest-api/sdk",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Vercel offers an official MCP server available in beta to connect AI tools via Model Context Protocol.",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Access is authenticated using Vercel access tokens (Bearer token auth).",
+      "url": "https://vercel.com/docs/rest-api/storage/get-a-store",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Vercel provides both a comprehensive TypeScript SDK (@vercel/sdk) and official Model Context Protocol (MCP) server support, making it extremely ready for AI agent integration.",
+  "research_timestamp": "2026-09-17T14:50:46.286050",
+  "search_queries_used": [
+    "Vercel API documentation developer",
+    "Vercel authentication OAuth API key developer docs",
+    "site:vercel.com/docs/rest-api API"
+  ],
+  "sources_consulted": 4
+}

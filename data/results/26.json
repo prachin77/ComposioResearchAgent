@@ -1,0 +1,57 @@
+{
+  "id": 26,
+  "name": "Discord",
+  "category": "Communications and Messaging",
+  "website": "discord.com",
+  "description": "Discord is a voice, video, and text communication service used by tens of millions of people to talk and hang out with their communities and friends.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "WebSocket"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://docs.discord.com/developers/intro",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/SaseQ/discord-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Authenticating with the Discord API can be done using a bot token or an OAuth2 bearer token.",
+      "url": "https://docs.discord.com/developers/reference",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The Discord API is a REST API that allows you to interact with Discord data from your own applications.",
+      "url": "https://docs.discord.com/developers/reference",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community MCP server exists for Discord allowing AI assistants to manage channels, send messages, and retrieve server info.",
+      "url": "https://github.com/SaseQ/discord-mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Discord provides a robust REST API and Gateway WebSocket connection for bots and applications, supporting both bot tokens and OAuth2 authentication.",
+  "research_timestamp": "2026-09-17T14:31:17.275188",
+  "search_queries_used": [
+    "Discord API documentation developer",
+    "Discord authentication OAuth API key developer docs",
+    "site:discord.com API"
+  ],
+  "sources_consulted": 6
+}

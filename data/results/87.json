@@ -1,0 +1,55 @@
+{
+  "id": 87,
+  "name": "Xero",
+  "category": "Finance and Fintech",
+  "website": "developer.xero.com",
+  "description": "Cloud-based accounting software platform for small businesses, accountants, and bookkeepers with comprehensive financial APIs.",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.xero.com/documentation/api/accounting/overview",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Xero provides public APIs and developer tools for small business integrations",
+      "url": "https://developer.xero.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Xero uses OAuth 2.0 for API authentication",
+      "url": "https://satvasolutions.com/blog/xero-api-integration-guide",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "Xero features an AI Toolkit including an MCP Server and OpenAI Agents SDK",
+      "url": "https://developer.xero.com/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Xero provides a comprehensive developer platform with extensive accounting, payroll, and asset APIs, along with official SDKs and an AI Toolkit including an MCP server.",
+  "research_timestamp": "2026-09-17T15:06:32.713974",
+  "search_queries_used": [
+    "Xero API documentation developer",
+    "Xero authentication OAuth API key developer docs",
+    "site:developer.xero.com API"
+  ],
+  "sources_consulted": 6
+}

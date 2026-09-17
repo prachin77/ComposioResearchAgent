@@ -1,0 +1,55 @@
+{
+  "id": 90,
+  "name": "PitchBook",
+  "category": "Finance and Fintech",
+  "website": "pitchbook.com",
+  "description": "PitchBook provides private market data including information on deals, investors, funds, companies, and people.",
+  "auth_methods": [
+    "token"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": false,
+  "access_model": "contact_sales",
+  "free_tier_available": false,
+  "self_serve_signup": false,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://pitchbook.com/help/PitchBook-api",
+  "has_webhooks": false,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "gated",
+  "primary_blocker": "Requires a standalone enterprise contract and account manager provisioning for API access.",
+  "blocker_type": "enterprise",
+  "evidence": [
+    {
+      "claim": "The API is a separate offering from the PitchBook platform that requires a standalone contract agreement.",
+      "url": "https://documenter.getpostman.com/view/5190535/TzCV1iRc",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "PitchBook offers a RESTful JSON API covering core entity types, but it is an enterprise add-on requiring a separate contract.",
+      "url": "https://documenter.getpostman.com/view/5190535/TzCV1iRc",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "Authentication uses an authorization header with the value 'PB-Token {API_KEY}'.",
+      "url": "https://documenter.getpostman.com/view/5190535/TzCV1iRc",
+      "source_type": "third_party"
+    }
+  ],
+  "confidence": "high",
+  "notes": "The API is an enterprise add-on product (Direct Data) requiring a separate contract and manual provisioning of credentials via an account manager.",
+  "research_timestamp": "2026-09-17T15:07:59.391695",
+  "search_queries_used": [
+    "PitchBook API documentation developer",
+    "PitchBook authentication OAuth API key developer docs",
+    "site:pitchbook.com API"
+  ],
+  "sources_consulted": 3
+}

@@ -1,0 +1,60 @@
+{
+  "id": 97,
+  "name": "higgsfield",
+  "category": "AI Research and Media-native",
+  "website": "higgsfield.ai/cli",
+  "description": "An asynchronous API providing developer access to 50+ video and image generation models via a single balance and unified auth.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://docs.higgsfield.ai/docs",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Generate images and videos through one authenticated, asynchronous API.",
+      "url": "https://docs.higgsfield.ai/docs",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Authenticate server-side API requests with your Higgsfield key and secret. Create and manage API credentials in Higgsfield Console.",
+      "url": "https://docs.higgsfield.ai/docs/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The Higgsfield API is a self-serve API for developers that provides direct access to more than 50 current video and image generation models with pay-as-you-go billing in US dollars.",
+      "url": "https://higgsfield.ai/blog/higgsfield-api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Python SDK for Higgsfield API",
+      "url": "https://github.com/higgsfield-ai/higgsfield-client",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "API requests require both an API key and secret (or a combined format). Billing is pay-as-you-go with balance top-ups.",
+  "research_timestamp": "2026-09-17T15:12:05.621799",
+  "search_queries_used": [
+    "higgsfield API documentation developer",
+    "higgsfield authentication OAuth API key developer docs",
+    "site:higgsfield.ai/cli API"
+  ],
+  "sources_consulted": 6
+}

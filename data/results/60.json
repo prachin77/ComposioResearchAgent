@@ -1,0 +1,50 @@
+{
+  "id": 60,
+  "name": "Clay",
+  "category": "Data SEO and Scraping",
+  "website": "clay.com",
+  "description": "All-in-one data enrichment, web scraping, and GTM workflow platform for sales and marketing teams.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://developers.clay.com/",
+  "has_webhooks": false,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/iflow-mcp/clay-inc-clay-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Every request to the Clay Public API must include a Clay API key in the clay-api-key header.",
+      "url": "https://developers.clay.com/public-api/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Clay has an official agent plugin, CLI, and MCP capabilities allowing integration with AI coding tools and chat interfaces.",
+      "url": "https://www.clay.com/blog/clay-mcp",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Clay provides both a Public API and CLI/agent plugin support (including MCP servers), authenticating via a Clay API key passed via headers (clay-api-key).",
+  "research_timestamp": "2026-09-17T14:49:42.551654",
+  "search_queries_used": [
+    "Clay API documentation developer",
+    "Clay authentication OAuth API key developer docs",
+    "site:clay.com API"
+  ],
+  "sources_consulted": 6
+}

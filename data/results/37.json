@@ -1,0 +1,60 @@
+{
+  "id": 37,
+  "name": "systeme.io",
+  "category": "Marketing Ads Email and Social",
+  "website": "systeme.io",
+  "description": "An all-in-one marketing platform and funnel builder for creating sales funnels, email campaigns, websites, and managing contacts.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://developer.systeme.io/reference/api",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Systeme.io exposes a public REST API documented at developer.systeme.io/reference/api",
+      "url": "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "API keys are generated in account settings under MCP & API keys",
+      "url": "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "API covers contacts, tags, custom fields, newsletters, campaigns, and funnels",
+      "url": "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Clean REST API with API-key auth, webhooks, available even on free plan",
+      "url": "https://www.youtube.com/watch?v=gV7asJnXiyk",
+      "source_type": "search_snippet"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Systeme.io provides a clean, well-documented public REST API accessible via API keys generated right in the account settings. It supports contacts, tags, custom fields, newsletters, campaigns, and funnels.",
+  "research_timestamp": "2026-09-17T14:36:33.186559",
+  "search_queries_used": [
+    "systeme.io API documentation developer",
+    "systeme.io authentication OAuth API key developer docs",
+    "site:systeme.io API"
+  ],
+  "sources_consulted": 6
+}

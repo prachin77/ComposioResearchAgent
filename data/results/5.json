@@ -1,0 +1,67 @@
+{
+  "id": 5,
+  "name": "Twenty",
+  "category": "CRM and Sales",
+  "website": "twenty.com",
+  "description": "An open-source CRM platform that provides highly customizable REST and GraphQL APIs, supporting custom objects and AI-driven workflows.",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.twenty.com/developers/extend/api",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Twenty supports both REST and GraphQL APIs for core data and metadata management.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Twenty implements OAuth 2.0 with authorization code + PKCE and dynamic client registration.",
+      "url": "https://docs.twenty.com/developers/extend/oauth",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Twenty has an official MCP server implementation for connecting AI assistants.",
+      "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Workspace-specific API documentation and an interactive playground are available in the user settings.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Twenty is open-source and can be self-hosted or used via their SaaS offering.",
+      "url": "https://github.com/twentyhq/twenty",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Twenty uses a unique schema-per-tenant API model where endpoints are dynamically generated based on the workspace's custom objects. It also supports dynamic OAuth client registration (RFC 7591).",
+  "research_timestamp": "2026-09-17T12:48:46.423529",
+  "search_queries_used": [
+    "Twenty API documentation developer",
+    "Twenty authentication OAuth API key developer docs",
+    "site:twenty.com API"
+  ],
+  "sources_consulted": 6
+}

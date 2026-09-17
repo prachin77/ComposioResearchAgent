@@ -1,0 +1,60 @@
+{
+  "id": 17,
+  "name": "Plain",
+  "category": "Support and Helpdesk",
+  "website": "plain.com",
+  "description": "An API-first customer support platform and infrastructure designed for B2B SaaS teams, featuring full API-UI parity and native AI agent support.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "GraphQL"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://help.plain.com/article/developer",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://help.plain.com/article/api-quickstart",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Plain provides a GraphQL API with full API-UI parity.",
+      "url": "https://www.plain.com/blog/api-first-support-platforms",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Authentication is handled via Machine Users and API Keys using Bearer tokens.",
+      "url": "https://help.plain.com/article/developer",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Plain offers a native MCP Server for AI agents to access the GraphQL API.",
+      "url": "https://help.plain.com/article/api-quickstart",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "The platform includes a typed TypeScript SDK for its GraphQL operations.",
+      "url": "https://help.plain.com/article/api-quickstart",
+      "source_type": "help_center"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Plain is explicitly built as an API-first platform with a GraphQL API and native Model Context Protocol (MCP) support, making it highly suitable for AI agent integrations.",
+  "research_timestamp": "2026-09-17T12:57:13.220778",
+  "search_queries_used": [
+    "Plain API documentation developer",
+    "Plain authentication OAuth API key developer docs",
+    "site:plain.com API"
+  ],
+  "sources_consulted": 6
+}

@@ -1,0 +1,57 @@
+{
+  "id": 43,
+  "name": "BigCommerce",
+  "category": "Ecommerce",
+  "website": "developer.bigcommerce.com",
+  "description": "An ecommerce platform providing robust REST and GraphQL APIs for managing products, orders, customers, and store operations.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "free_trial",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://docs.bigcommerce.com/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "BigCommerce offers OAuth-based API accounts for store-level, app-level, and account-level credentials.",
+      "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "BigCommerce provides both REST and GraphQL APIs for catalog, order, and customer management.",
+      "url": "https://docs.bigcommerce.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "BigCommerce provides an official Model Context Protocol (MCP) server for AI integration.",
+      "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "BigCommerce provides comprehensive REST and GraphQL APIs, detailed documentation, support for OAuth and store-level API accounts, and official MCP server offerings.",
+  "research_timestamp": "2026-09-17T14:39:53.951308",
+  "search_queries_used": [
+    "BigCommerce API documentation developer",
+    "BigCommerce authentication OAuth API key developer docs",
+    "site:developer.bigcommerce.com API"
+  ],
+  "sources_consulted": 5
+}

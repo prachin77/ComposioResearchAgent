@@ -1,0 +1,51 @@
+{
+  "id": 77,
+  "name": "ClickUp",
+  "category": "Productivity and Project Management",
+  "website": "clickup.com/api",
+  "description": "A productivity and project management platform that brings tasks, docs, goals, and chat together.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://clickup.com/api",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "ClickUp provides OAuth and API token authentication for connecting servers and tools.",
+      "url": "https://feedback.clickup.com/api/changelog/feed.rss",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "ClickUp has an API v2 endpoint for OAuth token generation.",
+      "url": "https://www.api.clickup.com/api/v2/oauth/token",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "ClickUp offers a robust public REST API v2 supporting OAuth and personal API tokens for managing tasks, spaces, lists, and users.",
+  "research_timestamp": "2026-09-17T14:59:44.576365",
+  "search_queries_used": [
+    "ClickUp API documentation developer",
+    "ClickUp authentication OAuth API key developer docs",
+    "site:clickup.com/api API"
+  ],
+  "sources_consulted": 1
+}

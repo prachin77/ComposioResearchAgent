@@ -1,0 +1,62 @@
+{
+  "id": 13,
+  "name": "Freshdesk",
+  "category": "Support and Helpdesk",
+  "website": "freshdesk.com",
+  "description": "A cloud-based customer service software that provides help desk support with multi-channel ticketing and customer engagement tools.",
+  "auth_methods": [
+    "api_key",
+    "oauth2",
+    "basic_auth"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.freshdesk.com/api/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/freshworks/mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Freshdesk has an official MCP server integration for AI tools like Cursor and Claude.",
+      "url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Freshdesk offers a free plan (Free/Sprout) and self-serve signup.",
+      "url": "https://www.freshworks.com/freshdesk/pricing/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The API supports broad operations across tickets, contacts, companies, and knowledge base.",
+      "url": "https://developers.freshdesk.com/api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Freshdesk API v2 uses API keys for authentication, typically passed via Basic Auth.",
+      "url": "https://developers.freshdesk.com/api/#authentication",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Freshdesk provides a robust REST API (v2) and has recently embraced the Model Context Protocol (MCP) with an official integration to support AI agents and tools.",
+  "research_timestamp": "2026-09-17T12:54:11.620760",
+  "search_queries_used": [
+    "Freshdesk API documentation developer",
+    "Freshdesk authentication OAuth API key developer docs",
+    "site:freshdesk.com API"
+  ],
+  "sources_consulted": 0
+}

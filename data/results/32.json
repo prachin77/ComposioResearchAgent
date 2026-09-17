@@ -1,0 +1,57 @@
+{
+  "id": 32,
+  "name": "Meta Ads",
+  "category": "Marketing Ads Email and Social",
+  "website": "developers.facebook.com/docs/marketing-apis",
+  "description": "Programmatically create, manage, and optimize ad campaigns across Meta platforms including Facebook and Instagram using the Marketing API.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "Graph API"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.facebook.com/docs/marketing-apis",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/byadsco/meta-ads-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "The Marketing API is a collection of Graph API endpoints used to advertise across Meta technologies.",
+      "url": "https://developers.facebook.com/docs/marketing-apis/?utm_gp=1",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Meta provides an official hosted Model Context Protocol server (Ads MCP Server) for managing ads via AI agents.",
+      "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community MCP servers exist for the Meta Marketing API such as pipeboard-co/meta-ads-mcp and byadsco/meta-ads-mcp.",
+      "url": "https://github.com/byadsco/meta-ads-mcp/",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Meta Ads provides extensive REST/Graph APIs for campaign management, insights, and catalogs. It also features official and community-built MCP servers for AI agent connectivity.",
+  "research_timestamp": "2026-09-17T14:34:01.009878",
+  "search_queries_used": [
+    "Meta Ads API documentation developer",
+    "Meta Ads authentication OAuth API key developer docs",
+    "site:developers.facebook.com/docs/marketing-apis API"
+  ],
+  "sources_consulted": 5
+}

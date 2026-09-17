@@ -1,0 +1,53 @@
+{
+  "id": 57,
+  "name": "Bright Data",
+  "category": "Data SEO and Scraping",
+  "website": "brightdata.com",
+  "description": "Web data platform offering proxy networks, web scrapers, datasets, and a production-grade Model Context Protocol (MCP) server for AI agents.",
+  "auth_methods": [
+    "api_key",
+    "token"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "CLI",
+    "SDK"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.brightdata.com/api-reference/authentication",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://github.com/brightdata/brightdata-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Authenticate and interact with the Bright Data platform using an API key/token.",
+      "url": "https://docs.brightdata.com/api-reference/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Bright Data has an official production-grade MCP server for AI agents.",
+      "url": "https://github.com/brightdata/brightdata-mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Bright Data provides official Python and JavaScript SDKs, a CLI, and a native Model Context Protocol (MCP) server for AI agents to perform web searching, page scraping, and structured data extraction.",
+  "research_timestamp": "2026-09-17T14:48:02.947803",
+  "search_queries_used": [
+    "Bright Data API documentation developer",
+    "Bright Data authentication OAuth API key developer docs",
+    "site:brightdata.com API"
+  ],
+  "sources_consulted": 5
+}

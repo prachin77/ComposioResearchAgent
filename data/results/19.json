@@ -1,0 +1,67 @@
+{
+  "id": 19,
+  "name": "Gorgias",
+  "category": "Support and Helpdesk",
+  "website": "gorgias.com",
+  "description": "A customer support and helpdesk platform designed for e-commerce that centralizes tickets, messages, and customer data.",
+  "auth_methods": [
+    "oauth2",
+    "api_key",
+    "basic_auth"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "paid",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://developers.gorgias.com/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Gorgias supports both API keys for private apps and OAuth2 for public apps.",
+      "url": "https://developers.gorgias.com/reference/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "API key authentication is implemented using HTTP Basic Auth with the username (email) and API key.",
+      "url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Gorgias has an official Model Context Protocol (MCP) server for connecting AI assistants.",
+      "url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The API is REST-based and covers resources like tickets, messages, customers, and events.",
+      "url": "https://developers.gorgias.com/reference/introduction",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "API access is available on all Helpdesk plans.",
+      "url": "https://docs.gorgias.com/en-US/rest-api-208286",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Gorgias distinguishes between private apps (using API keys via Basic Auth) and public apps (requiring OAuth2). It also recently launched an official MCP server for AI integrations.",
+  "research_timestamp": "2026-09-17T12:58:42.015025",
+  "search_queries_used": [
+    "Gorgias API documentation developer",
+    "Gorgias authentication OAuth API key developer docs",
+    "site:gorgias.com API"
+  ],
+  "sources_consulted": 6
+}

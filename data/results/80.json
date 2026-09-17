@@ -1,0 +1,46 @@
+{
+  "id": 80,
+  "name": "Harvest",
+  "category": "Productivity and Project Management",
+  "website": "harvestapp.com",
+  "description": "Harvest is a time tracking and project management tool that helps teams track time, manage expenses, and invoice clients.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "free_trial",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://help.getharvest.com/api-v2",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Harvest provides API v2 documentation for integration.",
+      "url": "https://help.getharvest.com/api-v2",
+      "source_type": "help_center"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Harvest provides a well-documented REST API (API v2) supporting OAuth2 and Personal Access Tokens, suitable for full project management and time tracking integrations.",
+  "research_timestamp": "2026-09-17T15:01:35.591508",
+  "search_queries_used": [
+    "Harvest API documentation developer",
+    "Harvest authentication OAuth API key developer docs",
+    "site:harvestapp.com API"
+  ],
+  "sources_consulted": 0
+}

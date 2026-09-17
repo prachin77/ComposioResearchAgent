@@ -1,0 +1,73 @@
+{
+  "id": 1,
+  "name": "Salesforce",
+  "category": "CRM and Sales",
+  "website": "salesforce.com",
+  "description": "A comprehensive cloud-based CRM platform providing tools for sales, service, marketing, and platform development.",
+  "auth_methods": [
+    "oauth2",
+    "jwt",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "paid",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "SOAP",
+    "GraphQL",
+    "Bulk",
+    "Streaming",
+    "Tooling",
+    "Metadata"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.salesforce.com/docs/apis",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/salesforcecli/mcp",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Salesforce supports OAuth 2.0 for API integration.",
+      "url": "https://help.salesforce.com/s/articleView?id=xcloud.connected_app_create_api_integration.htm&language=en_US&type=5",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Salesforce offers a wide range of APIs including REST, SOAP, and Bulk.",
+      "url": "https://developer.salesforce.com/docs/apis",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Salesforce has officially introduced support for the Model Context Protocol (MCP).",
+      "url": "https://developer.salesforce.com/blogs/2025/06/introducing-mcp-support-across-salesforce",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "An official MCP server for Salesforce is available on GitHub under the salesforcecli organization.",
+      "url": "https://github.com/salesforcecli/mcp",
+      "source_type": "github"
+    },
+    {
+      "claim": "Developers can sign up for a free Developer Edition org to build and test integrations.",
+      "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Salesforce provides a free, permanent 'Developer Edition' org which allows for full API access and testing. It has one of the most mature and extensive API ecosystems in the industry.",
+  "research_timestamp": "2026-09-17T12:46:14.667820",
+  "search_queries_used": [
+    "Salesforce API documentation developer",
+    "Salesforce authentication OAuth API key developer docs",
+    "site:salesforce.com API"
+  ],
+  "sources_consulted": 0
+}

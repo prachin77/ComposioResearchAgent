@@ -1,0 +1,60 @@
+{
+  "id": 50,
+  "name": "fanbasis",
+  "category": "Ecommerce",
+  "website": "fanbasis.com",
+  "description": "All-in-one marketplace OS for digital products, combining payments, checkout SDKs, subscriptions, funnel builder, and webinars.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://dev-docs.fanbasis.com/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/Gitmealez/fbnewapi",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "FanBasis provides API credentials, checkout SDKs, and webhook triggers.",
+      "url": "https://emergent.sh/integrations/fanbasis",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "FanBasis features an MCP (Model Context Protocol) integration to run from AI assistants.",
+      "url": "https://www.fanbasis.com/?trk=public_post_share-update_update-text",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "FanBasis API Docs portal is available at dev-docs.fanbasis.com and apidocs.fan",
+      "url": "https://dev-docs.fanbasis.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community MCP server configuration available on GitHub for connecting AI assistants to FanBasis API.",
+      "url": "https://github.com/Gitmealez/fbnewapi",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "FanBasis (also branded as Commas) offers a public API with embedded checkouts, multi-rail payouts, SDKs, and an MCP (Model Context Protocol) server capability for AI assistants.",
+  "research_timestamp": "2026-09-17T14:44:14.025771",
+  "search_queries_used": [
+    "fanbasis API documentation developer",
+    "fanbasis authentication OAuth API key developer docs",
+    "site:fanbasis.com API"
+  ],
+  "sources_consulted": 6
+}

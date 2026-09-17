@@ -1,0 +1,58 @@
+{
+  "id": 36,
+  "name": "Klaviyo",
+  "category": "Marketing Ads Email and Social",
+  "website": "developers.klaviyo.com",
+  "description": "Marketing automation platform specializing in email and SMS marketing, offering APIs to manage profiles, lists, campaigns, and events.",
+  "auth_methods": [
+    "api_key",
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "JSON:API"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.klaviyo.com/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Klaviyo provides three methods of authentication including private key authentication, OAuth, and public key authentication.",
+      "url": "https://developers.klaviyo.com/en/reference/api_overview",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Klaviyo provides SDKs offered in Python, PHP, Ruby, and Node.",
+      "url": "https://developers.klaviyo.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Klaviyo offers an official Model Context Protocol (MCP) server for AI agents.",
+      "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Klaviyo provides comprehensive developer tools including official SDKs (Python, PHP, Ruby, Node), OpenAPI specs, Postman collections, and an official Model Context Protocol (MCP) server.",
+  "research_timestamp": "2026-09-17T14:35:51.592242",
+  "search_queries_used": [
+    "Klaviyo API documentation developer",
+    "Klaviyo authentication OAuth API key developer docs",
+    "site:developers.klaviyo.com API"
+  ],
+  "sources_consulted": 6
+}

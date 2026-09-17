@@ -1,0 +1,61 @@
+{
+  "id": 29,
+  "name": "Aircall",
+  "category": "Communications and Messaging",
+  "website": "aircall.io",
+  "description": "Cloud-based call center software and phone system with public REST APIs, webhooks, and developer tools for managing calls, contacts, and users.",
+  "auth_methods": [
+    "oauth2",
+    "basic_auth"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://developer.aircall.io/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/themobilefirstco/aircall-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Aircall Public API is a classic REST API accessible via api.aircall.io/v1.",
+      "url": "https://developers.aircall.io/api-references",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Authentication can be done through OAuth or Basic Auth.",
+      "url": "https://developers.aircall.io/api-references",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Webhooks are supported for call events, contact additions, user state changes, etc.",
+      "url": "https://developers.aircall.io/api-references",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Aircall provides AI API and MCP support for connecting AI Virtual Agents.",
+      "url": "https://developer.aircall.io/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Aircall provides a comprehensive developer portal with a REST API, webhooks, and explicit support for AI Virtual Agents via MCP. OAuth 2.0 is recommended for applications listed on their marketplace, while basic auth is available for internal customer apps.",
+  "research_timestamp": "2026-09-17T14:32:35.734304",
+  "search_queries_used": [
+    "Aircall API documentation developer",
+    "Aircall authentication OAuth API key developer docs",
+    "site:aircall.io API"
+  ],
+  "sources_consulted": 4
+}

@@ -1,0 +1,55 @@
+{
+  "id": 95,
+  "name": "Reducto",
+  "category": "AI Research and Media-native",
+  "website": "reducto.ai",
+  "description": "Agentic document platform for parsing, extracting, classifying, splitting, and editing documents via API and MCP server.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.reducto.ai/quickstart",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://github.com/reductoai/mcp-server-reducto",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Parse, extract, classify, split, and edit documents with a single API and SDKs in Python, Node.js, Go.",
+      "url": "https://reducto.ai/developers",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Sign up at studio.reducto.ai and create an API key, setting it as REDUCTO_API_KEY.",
+      "url": "https://reducto.ai/developers",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Official MCP server exists to connect AI agents to Reducto via Model Context Protocol.",
+      "url": "https://github.com/reductoai/mcp-server-reducto",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Reducto provides SDKs for Python, Node.js, and Go, plus a CLI and an official MCP server for AI agents.",
+  "research_timestamp": "2026-09-17T15:11:02.177426",
+  "search_queries_used": [
+    "Reducto API documentation developer",
+    "Reducto authentication OAuth API key developer docs",
+    "site:reducto.ai API"
+  ],
+  "sources_consulted": 5
+}

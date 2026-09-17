@@ -14,7 +14,14 @@ from models import AppInput, AppResearch
 from agent.researcher import research_app
 import config
 
-console = Console()
+import warnings
+
+warnings.filterwarnings("ignore")
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("google").setLevel(logging.WARNING)
+logging.getLogger("google.genai").setLevel(logging.WARNING)
+
+console = Console(safe_box=True)
 logger = logging.getLogger(__name__)
 
 
@@ -27,12 +34,16 @@ def load_apps() -> list[AppInput]:
 
 
 def load_result(app_id: int) -> AppResearch | None:
-    """Load a previously saved result for an app."""
+    """Load a previously saved result for an app. Ignores failed attempts so they get retried."""
     result_file = config.RESULTS_DIR / f"{app_id}.json"
     if result_file.exists():
-        with open(result_file, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return AppResearch(**data)
+        try:
+            with open(result_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if not data.get("description", "").startswith("Research failed"):
+                return AppResearch(**data)
+        except Exception:
+            return None
     return None
 
 
@@ -68,7 +79,7 @@ def run_pipeline(force_rerun: bool = False):
     )
 
     apps = load_apps()
-    console.print(f"\n[bold cyan]🔬 Composio 100-App Research Pipeline[/bold cyan]")
+    console.print(f"\n[bold cyan][*] Composio 100-App Research Pipeline[/bold cyan]")
     console.print(f"[dim]Apps to research: {len(apps)}[/dim]\n")
 
     completed = 0
@@ -117,7 +128,7 @@ def run_pipeline(force_rerun: bool = False):
             progress.update(task, advance=1)
 
     # Summary
-    console.print(f"\n[bold green]✅ Pipeline complete![/bold green]")
+    console.print(f"\n[bold green][OK] Pipeline complete![/bold green]")
     console.print(f"  Completed: {completed}")
     console.print(f"  Skipped (cached): {skipped}")
     console.print(f"  Failed: {failed}")

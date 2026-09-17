@@ -1,0 +1,61 @@
+{
+  "id": 67,
+  "name": "Snowflake",
+  "category": "Developer Infra and Data Platforms",
+  "website": "docs.snowflake.com",
+  "description": "Cloud-based data warehousing and data platform providing SQL querying, data storage, and developer APIs/SDKs.",
+  "auth_methods": [
+    "token",
+    "oauth2",
+    "api_key",
+    "other"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": true,
+  "access_model": "free_trial",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "SQL",
+    "Python",
+    "OpenAPI"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+  "has_webhooks": false,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://github.com/Snowflake-Labs/mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Snowflake provides REST APIs for resource management compliant with the OpenAPI specification.",
+      "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Snowflake offers a Python API and SQL API for connecting and managing resources.",
+      "url": "https://docs.snowflake.com/en/en/api-reference",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Official MCP Server exists for Snowflake maintained by Snowflake-Labs.",
+      "url": "https://github.com/Snowflake-Labs/mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Snowflake provides extensive REST APIs, SQL APIs, Python APIs, and an official MCP server (Snowflake-Labs/mcp) supporting the standard Snowflake Python Connector authentication methods.",
+  "research_timestamp": "2026-09-17T14:53:59.797936",
+  "search_queries_used": [
+    "Snowflake API documentation developer",
+    "Snowflake authentication OAuth API key developer docs",
+    "site:docs.snowflake.com API"
+  ],
+  "sources_consulted": 5
+}

@@ -1,0 +1,56 @@
+{
+  "id": 72,
+  "name": "Airtable",
+  "category": "Productivity and Project Management",
+  "website": "airtable.com/developers",
+  "description": "A spreadsheet-database hybrid platform offering a flexible REST API and Model Context Protocol (MCP) server for managing bases, tables, records, and workflows.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://airtable.com/developers/web/api/introduction",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/domdomegg/airtable-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Airtable combines the simplicity of a spreadsheet with the power of a database, offering a flexible REST API for programmatic access to bases, tables, records, and attachments.",
+      "url": "https://airtable.rest/",
+      "source_type": "third_party"
+    },
+    {
+      "claim": "Any MCP-compatible tool can read, write, and query your bases through natural language, scoped to your existing permissions.",
+      "url": "https://airtable.com/developers/agents",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Authentication methods include personal access tokens and OAuth integration.",
+      "url": "https://airtable.com/developers/web/api/create-base-from-package-enterprise.md",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Airtable provides both a comprehensive REST API and an official MCP server with robust agent skills.",
+  "research_timestamp": "2026-09-17T14:57:02.030192",
+  "search_queries_used": [
+    "Airtable API documentation developer",
+    "Airtable authentication OAuth API key developer docs",
+    "site:airtable.com/developers API"
+  ],
+  "sources_consulted": 6
+}

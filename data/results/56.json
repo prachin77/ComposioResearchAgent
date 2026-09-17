@@ -1,0 +1,55 @@
+{
+  "id": 56,
+  "name": "Firecrawl",
+  "category": "Data SEO and Scraping",
+  "website": "firecrawl.dev",
+  "description": "Developer-first API and context engine that turns websites and technical sources into clean, LLM-ready data for AI apps, agents, and research workflows.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.firecrawl.dev/api-reference/introduction",
+  "has_webhooks": false,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Authentication requires an Authorization header containing a Bearer token with the API key.",
+      "url": "https://docs.firecrawl.dev/api-reference/introduction",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Firecrawl offers an official MCP server for AI agents.",
+      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "source_type": "github"
+    },
+    {
+      "claim": "Firecrawl provides developer SDKs such as firecrawl-py.",
+      "url": "https://www.firecrawl.dev/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Firecrawl provides robust SDKs (like Python), a complete REST API with Bearer token authentication, and an official MCP server for AI integrations.",
+  "research_timestamp": "2026-09-17T14:47:24.053457",
+  "search_queries_used": [
+    "Firecrawl API documentation developer",
+    "Firecrawl authentication OAuth API key developer docs",
+    "site:firecrawl.dev API"
+  ],
+  "sources_consulted": 6
+}

@@ -1,0 +1,56 @@
+{
+  "id": 73,
+  "name": "Linear",
+  "category": "Productivity and Project Management",
+  "website": "developers.linear.app",
+  "description": "Issue tracking and project management tool for modern software development teams.",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "GraphQL"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://linear.app/developers",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://linear.app/docs/mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Linear's public API is built using GraphQL and supports OAuth2 and personal API keys.",
+      "url": "https://linear.app/developers/graphql",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Linear supports OAuth2 authentication for application integrations.",
+      "url": "https://linear.app/developers/oauth-2-0-authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The MCP server lets you work with your Linear data from any compatible AI client.",
+      "url": "https://linear.app/docs/mcp",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Linear provides a very comprehensive GraphQL API with a TypeScript SDK, official OAuth2 authentication, personal API keys, and official MCP server support.",
+  "research_timestamp": "2026-09-17T14:57:32.879448",
+  "search_queries_used": [
+    "Linear API documentation developer",
+    "Linear authentication OAuth API key developer docs",
+    "site:developers.linear.app API"
+  ],
+  "sources_consulted": 6
+}

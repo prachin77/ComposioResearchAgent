@@ -1,0 +1,55 @@
+{
+  "id": 16,
+  "name": "LiveAgent",
+  "category": "Support and Helpdesk",
+  "website": "liveagent.com",
+  "description": "LiveAgent is a help desk and customer support software combining live chat, ticketing, and call center features into one platform.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://support.liveagent.com/docs/api/v3/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "LiveAgent provides complete API v3 documentation and Python client SDK on GitHub.",
+      "url": "https://support.liveagent.com/docs/api/v3/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "API keys are generated in admin configuration under Configuration > System > API and passed via the 'apikey' header.",
+      "url": "https://support.liveagent.com/741982-API-key",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "LiveAgent combines AI chatbot, live chat, ticketing & call center with a free start tier option.",
+      "url": "https://support.liveagent.com/840770-Complete-API-reference",
+      "source_type": "help_center"
+    }
+  ],
+  "confidence": "high",
+  "notes": "LiveAgent provides API v1 (deprecated) and API v3 (active with continuous enhancements) utilizing API key authentication passed via request headers.",
+  "research_timestamp": "2026-09-17T14:28:31.680800",
+  "search_queries_used": [
+    "LiveAgent API documentation developer",
+    "LiveAgent authentication OAuth API key developer docs",
+    "site:liveagent.com API"
+  ],
+  "sources_consulted": 6
+}

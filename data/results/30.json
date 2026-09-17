@@ -1,0 +1,52 @@
+{
+  "id": 30,
+  "name": "Vonage",
+  "category": "Communications and Messaging",
+  "website": "developer.vonage.com",
+  "description": "Cloud communications platform providing APIs for voice, messaging, video, and network security features.",
+  "auth_methods": [
+    "api_key",
+    "token"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.vonage.com/api",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developer.vonage.com/en/mcp-server/overview",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Vonage provides comprehensive APIs for SMS, Voice, Video, and Network Security features.",
+      "url": "https://developer.vonage.com/en/documentation",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Vonage offers an official MCP server for AI agents and IDEs to discover and use Vonage capabilities.",
+      "url": "https://developer.vonage.com/en/mcp-server/overview",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Vonage provides extensive communication APIs (SMS, Voice, Video, Verify, etc.), robust developer documentation, and native MCP server support for AI agents.",
+  "research_timestamp": "2026-09-17T14:33:02.954165",
+  "search_queries_used": [
+    "Vonage API documentation developer",
+    "Vonage authentication OAuth API key developer docs",
+    "site:developer.vonage.com API"
+  ],
+  "sources_consulted": 5
+}

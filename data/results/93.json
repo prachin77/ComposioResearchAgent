@@ -1,0 +1,57 @@
+{
+  "id": 93,
+  "name": "Fathom",
+  "category": "AI Research and Media-native",
+  "website": "fathom.video",
+  "description": "Fathom is an AI-powered meeting assistant that records, transcribes, summarizes, and highlights video calls.",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "gRPC"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://developers.fathom.ai/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developers.fathom.ai/mcp-docs",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Generate an API key and make your first call in minutes. Use our Typescript or Python SDK. Set up a webhook for your meetings.",
+      "url": "https://developers.fathom.ai/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Partners can register an OAuth app to be eligible for a future marketplace listing as a Fathom-approved integration.",
+      "url": "https://help.fathom.video/en/articles/8368641",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "Fathom now offers an official MCP (Model Context Protocol) server, allowing you to connect your Fathom meeting data to AI assistants like ChatGPT, Claude, and more.",
+      "url": "https://developers.fathom.ai/mcp-docs",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Fathom provides both a user-level API key method and an OAuth app registration for partners, alongside an official Model Context Protocol (MCP) server.",
+  "research_timestamp": "2026-09-17T15:09:54.840921",
+  "search_queries_used": [
+    "Fathom API documentation developer",
+    "Fathom authentication OAuth API key developer docs",
+    "site:fathom.video API"
+  ],
+  "sources_consulted": 6
+}

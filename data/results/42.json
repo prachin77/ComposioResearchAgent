@@ -1,0 +1,59 @@
+{
+  "id": 42,
+  "name": "WooCommerce",
+  "category": "Ecommerce",
+  "website": "woocommerce.com/document/woocommerce-rest-api",
+  "description": "An open-source eCommerce platform built on WordPress allowing businesses to sell physical and digital products, manage orders, and handle customers.",
+  "auth_methods": [
+    "basic_auth",
+    "oauth2",
+    "token",
+    "other"
+  ],
+  "primary_auth": "basic_auth",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/techspawn/woocommerce-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "WooCommerce provides a REST API that connects stores to external systems using consumer keys and consumer secrets.",
+      "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "For Authorization, choose basic auth and enter your consumer key and consumer secret keys from WooCommerce into the username and password fields.",
+      "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "WooCommerce includes native support for the Model Context Protocol (MCP), enabling AI assistants and tools to interact directly with WooCommerce stores.",
+      "url": "https://developer.woocommerce.com/docs/features/mcp/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "WooCommerce REST API uses consumer keys and consumer secrets passed via basic authentication or OAuth 1.0a / OAuth2 depending on the setup. It also includes native Model Context Protocol (MCP) support.",
+  "research_timestamp": "2026-09-17T14:39:25.978573",
+  "search_queries_used": [
+    "WooCommerce API documentation developer",
+    "WooCommerce authentication OAuth API key developer docs",
+    "site:woocommerce.com/document/woocommerce-rest-api API"
+  ],
+  "sources_consulted": 6
+}

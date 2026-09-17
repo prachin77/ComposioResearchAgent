@@ -1,0 +1,58 @@
+{
+  "id": 64,
+  "name": "Cloudflare",
+  "category": "Developer Infra and Data Platforms",
+  "website": "developers.cloudflare.com/api",
+  "description": "Cloudflare provides web infrastructure, security, performance, and serverless developer services with a robust REST API and official MCP server support.",
+  "auth_methods": [
+    "oauth2",
+    "token",
+    "api_key"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.cloudflare.com/api/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/cloudflare/mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "OAuth allows third-party applications to securely access Cloudflare resources without requiring users to share long-lived API tokens.",
+      "url": "https://developers.cloudflare.com/fundamentals/oauth/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Using Cloudflare's API, you can do just about anything you can do on cloudflare.com via the customer dashboard using RESTful API based on HTTPS requests and JSON responses.",
+      "url": "https://cfapi.centminmod.com/",
+      "source_type": "search_snippet"
+    },
+    {
+      "claim": "Cloudflare runs a catalog of managed remote MCP servers which you can connect to using OAuth on clients like Claude, Windsurf, or via official repositories like cloudflare/mcp.",
+      "url": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Cloudflare offers a comprehensive API covering virtually all dashboard functionalities, supports OAuth2 and API tokens, and maintains an official MCP server for AI integration.",
+  "research_timestamp": "2026-09-17T14:51:56.509012",
+  "search_queries_used": [
+    "Cloudflare API documentation developer",
+    "Cloudflare authentication OAuth API key developer docs",
+    "site:developers.cloudflare.com/api API"
+  ],
+  "sources_consulted": 4
+}

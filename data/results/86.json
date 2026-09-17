@@ -1,0 +1,45 @@
+{
+  "id": 86,
+  "name": "QuickBooks",
+  "category": "Finance and Fintech",
+  "website": "developer.intuit.com",
+  "description": "Cloud-based accounting software for small businesses to manage invoicing, expenses, and financial reports.",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "paid",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.intuit.com",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/intuit/quickbooks-online-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Official QuickBooks Online MCP server provides complete API integration for 29 entity types and 11 financial reports.",
+      "url": "https://github.com/intuit/quickbooks-online-mcp-server",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Intuit provides an official QuickBooks Online MCP server along with a mature public REST API and developer platform.",
+  "research_timestamp": "2026-09-17T15:05:52.562530",
+  "search_queries_used": [
+    "QuickBooks API documentation developer",
+    "QuickBooks authentication OAuth API key developer docs",
+    "site:developer.intuit.com API"
+  ],
+  "sources_consulted": 0
+}

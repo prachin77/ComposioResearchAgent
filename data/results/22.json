@@ -1,0 +1,48 @@
+{
+  "id": 22,
+  "name": "Twilio",
+  "category": "Communications and Messaging",
+  "website": "twilio.com",
+  "description": "Cloud communications platform for building SMS, voice, and messaging applications via APIs.",
+  "auth_methods": [
+    "api_key",
+    "token",
+    "basic_auth",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://www.twilio.com/docs",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Twilio offers public REST APIs and SDKs for communications like SMS and Voice with self-serve signup.",
+      "url": "https://www.twilio.com/docs",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Twilio is widely known to have a very broad REST API and SDKs for sending SMS, making calls, and managing communication workflows, with self-serve signups and free trial credits available.",
+  "research_timestamp": "2026-09-17T14:29:30.292632",
+  "search_queries_used": [
+    "Twilio API documentation developer",
+    "Twilio authentication OAuth API key developer docs",
+    "site:twilio.com API"
+  ],
+  "sources_consulted": 0
+}

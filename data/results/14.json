@@ -1,0 +1,62 @@
+{
+  "id": 14,
+  "name": "Front",
+  "category": "Support and Helpdesk",
+  "website": "front.com",
+  "description": "A customer operations platform that centralizes communication channels like email and chat for team collaboration and support.",
+  "auth_methods": [
+    "oauth2",
+    "api_key",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://dev.frontapp.com/docs/welcome",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Front provides a primary backend API for reading, creating, updating, and deleting data across entities like Contacts, Comments, and Tags.",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Developers can create a free developer account to begin building integrations.",
+      "url": "https://help.front.com/en/articles/2309",
+      "source_type": "help_center"
+    },
+    {
+      "claim": "The platform supports OAuth2 for public integrations and private apps for internal use.",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The API covers a broad range of functionality including conversation management, contact syncing, and teammate availability.",
+      "url": "https://dev.frontapp.com/docs/core-api-overview",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Front provides a dedicated free developer account for building and testing integrations. It supports both private API tokens and public OAuth2 applications.",
+  "research_timestamp": "2026-09-17T12:54:58.500936",
+  "search_queries_used": [
+    "Front API documentation developer",
+    "Front authentication OAuth API key developer docs",
+    "site:front.com API"
+  ],
+  "sources_consulted": 5
+}

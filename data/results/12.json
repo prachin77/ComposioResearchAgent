@@ -1,0 +1,66 @@
+{
+  "id": 12,
+  "name": "Intercom",
+  "category": "Support and Helpdesk",
+  "website": "intercom.com",
+  "description": "An AI-first customer service platform providing messaging, help desk, and automation tools for businesses.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "paid",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.intercom.com/docs/references/introduction",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://github.com/intercom/intercom-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Intercom supports OAuth2 for public apps and Access Tokens for private apps.",
+      "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "A free development workspace is available for developers to build and test integrations.",
+      "url": "https://developers.intercom.com/docs",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Intercom has an official Model Context Protocol (MCP) server.",
+      "url": "https://developers.intercom.com/docs/guides/mcp",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The API covers a wide range of resources including Contacts, Conversations, Tickets, Articles, and Data Events.",
+      "url": "https://developers.intercom.com/docs/references/introduction",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Intercom provides regional API endpoints for US, Europe, and Australia.",
+      "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Intercom provides a dedicated free development workspace for building and testing integrations. OAuth is mandatory for public apps, while access tokens are used for private workspace integrations.",
+  "research_timestamp": "2026-09-17T12:53:38.810562",
+  "search_queries_used": [
+    "Intercom API documentation developer",
+    "Intercom authentication OAuth API key developer docs",
+    "site:intercom.com API"
+  ],
+  "sources_consulted": 6
+}

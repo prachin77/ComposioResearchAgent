@@ -1,0 +1,67 @@
+{
+  "id": 3,
+  "name": "Pipedrive",
+  "category": "CRM and Sales",
+  "website": "pipedrive.com",
+  "description": "A CRM and sales management platform designed to help sales teams manage leads, track activities, and automate workflows.",
+  "auth_methods": [
+    "oauth2",
+    "api_key",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "paid",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://developers.pipedrive.com/docs/api/v1",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Pipedrive supports OAuth 2.0 and API tokens for authentication.",
+      "url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The API covers the majority of core product functionality and is RESTful.",
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "A free Developer Sandbox Account is available for experimentation.",
+      "url": "https://developers.pipedrive.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Pipedrive offers official SDKs for Node.js and PHP.",
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Webhooks are supported for real-time data updates.",
+      "url": "https://developers.pipedrive.com/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Pipedrive provides a dedicated free Developer Sandbox Account for building and testing integrations. OAuth 2.0 is the required method for marketplace apps, while API tokens are available for personal/private use.",
+  "research_timestamp": "2026-09-17T12:48:06.972827",
+  "search_queries_used": [
+    "Pipedrive API documentation developer",
+    "Pipedrive authentication OAuth API key developer docs",
+    "site:pipedrive.com API"
+  ],
+  "sources_consulted": 6
+}

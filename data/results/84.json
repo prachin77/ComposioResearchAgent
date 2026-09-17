@@ -1,0 +1,51 @@
+{
+  "id": 84,
+  "name": "Paygent Connect",
+  "category": "Finance and Fintech",
+  "website": "paygent",
+  "description": "API payments and virtual card funding platform for AI agents using cryptocurrency deposits.",
+  "auth_methods": [
+    "api_key",
+    "token"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "narrow",
+  "api_docs_url": "https://docs.paygent.to/reference/api-reference/",
+  "has_webhooks": false,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://mcp.paygent.tech/sse",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Paygent exposes a small REST API with Bearer token authentication.",
+      "url": "https://docs.paygent.to/reference/api-reference/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Paygent provides a remote MCP server via https://mcp.paygent.tech/sse.",
+      "url": "https://api.paygent.tech/docs",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Paygent offers both REST APIs and a remote Model Context Protocol (MCP) server for AI agents to request and fund virtual cards using crypto (USDG/ETH).",
+  "research_timestamp": "2026-09-17T15:04:10.969117",
+  "search_queries_used": [
+    "Paygent Connect API documentation developer",
+    "Paygent Connect authentication OAuth API key developer docs",
+    "site:paygent API"
+  ],
+  "sources_consulted": 5
+}

@@ -1,0 +1,57 @@
+{
+  "id": 69,
+  "name": "Datadog",
+  "category": "Developer Infra and Data Platforms",
+  "website": "docs.datadoghq.com/api",
+  "description": "Cloud-scale monitoring and security platform providing observability for metrics, logs, traces, and infrastructure.",
+  "auth_methods": [
+    "api_key",
+    "token",
+    "oauth2"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "paid",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://docs.datadoghq.com/api/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/datadog-labs/mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "All requests to Datadog\u2019s API must be authenticated using API keys and application keys.",
+      "url": "https://docs.datadoghq.com/api/latest/authentication/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Official Datadog MCP Server exists for connecting AI agents to Datadog observability tools.",
+      "url": "https://github.com/datadog-labs/mcp-server",
+      "source_type": "github"
+    },
+    {
+      "claim": "Supports RFC 7591 Dynamic Client Registration and OAuth2 client configuration.",
+      "url": "https://docs.datadoghq.com/api/latest/oauth2-client-public.md",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Datadog provides comprehensive API access through API keys and application keys, along with official client libraries, webhooks, and an official Model Context Protocol (MCP) server for AI integrations.",
+  "research_timestamp": "2026-09-17T14:55:22.736344",
+  "search_queries_used": [
+    "Datadog API documentation developer",
+    "Datadog authentication OAuth API key developer docs",
+    "site:docs.datadoghq.com/api API"
+  ],
+  "sources_consulted": 6
+}

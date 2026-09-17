@@ -1,0 +1,56 @@
+{
+  "id": 44,
+  "name": "Salesforce Commerce Cloud",
+  "category": "Ecommerce",
+  "website": "developer.salesforce.com/docs/commerce",
+  "description": "Salesforce Commerce Cloud (SFCC) provides B2C commerce APIs (SCAPI and OCAPI) to manage storefronts, products, shopper data, baskets, and orders.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "contact_sales",
+  "free_tier_available": false,
+  "self_serve_signup": false,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+  "has_webhooks": false,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/vinkius-labs/salesforce-commerce-mcp",
+  "buildability": "needs_setup",
+  "primary_blocker": "Salesforce Commerce Cloud requires an enterprise account/license and proper partner/admin provisioning to access production/sandbox API environments.",
+  "blocker_type": "enterprise",
+  "evidence": [
+    {
+      "claim": "Access B2C Commerce data (such as product and shopper data) and functionality (such as baskets and orders) through secure and well-defined API methods.",
+      "url": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The B2C Commerce API (SCAPI) is a set of RESTful APIs for building storefronts, merchant tools, and integrations on the B2C Commerce platform.",
+      "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/scapi-get-started.html",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The official Model Context Protocol adapter for Salesforce Commerce Cloud (B2C) exists on GitHub.",
+      "url": "https://github.com/vinkius-labs/salesforce-commerce-mcp",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Offers comprehensive APIs (SCAPI / OCAPI) along with official client SDKs and community/official Model Context Protocol (MCP) servers.",
+  "research_timestamp": "2026-09-17T14:40:28.409007",
+  "search_queries_used": [
+    "Salesforce Commerce Cloud API documentation developer",
+    "Salesforce Commerce Cloud authentication OAuth API key developer docs",
+    "site:developer.salesforce.com/docs/commerce API"
+  ],
+  "sources_consulted": 1
+}

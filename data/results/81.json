@@ -1,0 +1,57 @@
+{
+  "id": 81,
+  "name": "Stripe",
+  "category": "Finance and Fintech",
+  "website": "stripe.com/docs/api",
+  "description": "Payment processing and financial infrastructure platform for internet businesses",
+  "auth_methods": [
+    "api_key",
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": true,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://docs.stripe.com/api",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://docs.stripe.com/mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Stripe supports OAuth 2.0 authentication for requests on behalf of users",
+      "url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "API keys are used to authenticate requests to the Stripe API",
+      "url": "https://docs.stripe.com/api/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Stripe Model Context Protocol (MCP) server lets AI agents interact with the Stripe API",
+      "url": "https://docs.stripe.com/mcp",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Stripe provides comprehensive official SDKs, public REST API, webhooks, an official Model Context Protocol (MCP) server, and supports both API keys and OAuth 2.0.",
+  "research_timestamp": "2026-09-17T15:02:18.108160",
+  "search_queries_used": [
+    "Stripe API documentation developer",
+    "Stripe authentication OAuth API key developer docs",
+    "site:stripe.com/docs/api API"
+  ],
+  "sources_consulted": 5
+}

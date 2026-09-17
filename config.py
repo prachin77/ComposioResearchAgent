@@ -26,7 +26,7 @@ COMPOSIO_API_KEY = os.getenv("COMPOSIO_API_KEY", "")
 USE_COMPOSIO = bool(COMPOSIO_API_KEY)  # Auto-enable if key is present
 
 # --- LLM Settings ---
-GEMINI_MODEL = "gemini-3-flash-preview"
+GEMINI_MODEL = "gemini-flash-lite-latest"
 GEMINI_RPM = 15          # Free tier: 15 requests per minute
 GEMINI_RPD = 1500         # Free tier: 1500 requests per day
 LLM_TEMPERATURE = 0.1     # Low temperature for factual extraction

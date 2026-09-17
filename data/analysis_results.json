@@ -1,0 +1,269 @@
+{
+  "auth_distribution": {
+    "oauth2": 71,
+    "token": 62,
+    "api_key": 52,
+    "basic_auth": 11,
+    "other": 7,
+    "jwt": 2,
+    "oauth": 1
+  },
+  "primary_auth_distribution": {
+    "oauth2": 47,
+    "api_key": 33,
+    "token": 15,
+    "basic_auth": 2,
+    "oauth": 1,
+    "other": 1
+  },
+  "access_distribution": {
+    "self_serve": 40,
+    "freemium": 35,
+    "paid": 11,
+    "free_trial": 7,
+    "contact_sales": 5,
+    "admin_approval": 2
+  },
+  "access_by_category": {
+    "CRM and Sales": {
+      "paid": 3,
+      "freemium": 5,
+      "free_trial": 2
+    },
+    "Support and Helpdesk": {
+      "free_trial": 2,
+      "paid": 2,
+      "freemium": 2,
+      "self_serve": 2,
+      "contact_sales": 2
+    },
+    "Communications and Messaging": {
+      "freemium": 3,
+      "self_serve": 7
+    },
+    "Marketing Ads Email and Social": {
+      "self_serve": 4,
+      "admin_approval": 1,
+      "paid": 1,
+      "freemium": 4
+    },
+    "Ecommerce": {
+      "self_serve": 6,
+      "free_trial": 1,
+      "contact_sales": 1,
+      "freemium": 1,
+      "admin_approval": 1
+    },
+    "Data SEO and Scraping": {
+      "self_serve": 6,
+      "paid": 1,
+      "freemium": 3
+    },
+    "Developer Infra and Data Platforms": {
+      "freemium": 8,
+      "free_trial": 1,
+      "paid": 1
+    },
+    "Productivity and Project Management": {
+      "freemium": 8,
+      "self_serve": 1,
+      "free_trial": 1
+    },
+    "Finance and Fintech": {
+      "self_serve": 8,
+      "paid": 1,
+      "contact_sales": 1
+    },
+    "AI Research and Media-native": {
+      "self_serve": 6,
+      "paid": 2,
+      "freemium": 1,
+      "contact_sales": 1
+    }
+  },
+  "api_type_distribution": {
+    "REST": 95,
+    "GraphQL": 13,
+    "Bulk": 2,
+    "WebSocket": 2,
+    "gRPC": 2,
+    "Graph API": 2,
+    "OpenAPI": 2,
+    "SOAP": 1,
+    "Streaming": 1,
+    "Tooling": 1,
+    "Metadata": 1,
+    "MTProto": 1,
+    "Webhooks": 1,
+    "JSON:API": 1,
+    "CLI": 1,
+    "SDK": 1,
+    "OpenAI-compatible": 1,
+    "Realtime": 1,
+    "GraphQL via extensions": 1,
+    "Bolt": 1,
+    "Query API": 1,
+    "SQL": 1,
+    "Python": 1
+  },
+  "api_breadth_distribution": {
+    "very_broad": 46,
+    "broad": 32,
+    "moderate": 17,
+    "narrow": 3,
+    "none": 2
+  },
+  "mcp_stats": {
+    "official_mcp": 62,
+    "community_mcp": 68,
+    "any_mcp": 82,
+    "no_mcp": 18
+  },
+  "buildability_distribution": {
+    "ready": 86,
+    "buildable": 8,
+    "gated": 4,
+    "needs_setup": 2
+  },
+  "blocker_distribution": {
+    "enterprise": 4,
+    "partner": 2,
+    "paid": 1
+  },
+  "buildability_by_category": {
+    "CRM and Sales": {
+      "ready": 9,
+      "needs_setup": 1
+    },
+    "Support and Helpdesk": {
+      "ready": 8,
+      "buildable": 2
+    },
+    "Communications and Messaging": {
+      "ready": 10
+    },
+    "Marketing Ads Email and Social": {
+      "buildable": 1,
+      "ready": 8,
+      "gated": 1
+    },
+    "Ecommerce": {
+      "ready": 7,
+      "needs_setup": 1,
+      "buildable": 1,
+      "gated": 1
+    },
+    "Data SEO and Scraping": {
+      "ready": 9,
+      "buildable": 1
+    },
+    "Developer Infra and Data Platforms": {
+      "ready": 10
+    },
+    "Productivity and Project Management": {
+      "ready": 10
+    },
+    "Finance and Fintech": {
+      "ready": 8,
+      "buildable": 1,
+      "gated": 1
+    },
+    "AI Research and Media-native": {
+      "buildable": 2,
+      "gated": 1,
+      "ready": 7
+    }
+  },
+  "confidence_distribution": {
+    "high": 99,
+    "medium": 1
+  },
+  "easy_wins": [
+    "Salesforce",
+    "HubSpot",
+    "Pipedrive",
+    "Attio",
+    "Twenty",
+    "Podio",
+    "Zoho CRM",
+    "Close",
+    "Copper",
+    "Zendesk",
+    "Intercom",
+    "Freshdesk",
+    "Front",
+    "LiveAgent",
+    "Plain",
+    "Help Scout",
+    "Gorgias",
+    "Slack",
+    "Twilio",
+    "Zoho Cliq",
+    "Lark",
+    "Discord",
+    "Telegram",
+    "WhatsApp Business",
+    "Aircall",
+    "Vonage",
+    "Google Ads",
+    "Meta Ads",
+    "GoHighLevel",
+    "Mailchimp",
+    "Klaviyo",
+    "Pinterest",
+    "SendGrid",
+    "Shopify",
+    "WooCommerce",
+    "BigCommerce",
+    "Magento (Adobe Commerce)",
+    "Ecwid",
+    "DataForSEO",
+    "SE Ranking",
+    "Ahrefs",
+    "Apify",
+    "Firecrawl",
+    "Bright Data",
+    "Waterfall.io",
+    "GitHub",
+    "Vercel",
+    "Netlify",
+    "Cloudflare",
+    "Supabase",
+    "Neo4j",
+    "Snowflake",
+    "MongoDB Atlas",
+    "Datadog",
+    "Sentry",
+    "Notion",
+    "Airtable",
+    "Linear",
+    "Jira",
+    "Asana",
+    "Monday.com",
+    "ClickUp",
+    "Coda",
+    "Smartsheet",
+    "Harvest",
+    "Stripe",
+    "Plaid",
+    "Binance",
+    "QuickBooks",
+    "Xero",
+    "Brex",
+    "Ramp",
+    "Reducto"
+  ],
+  "needs_outreach": [
+    "Pylon",
+    "Gladly",
+    "LinkedIn Ads",
+    "Salesforce Commerce Cloud",
+    "Amazon Selling Partner",
+    "PitchBook",
+    "Devin"
+  ],
+  "blocked_apps": [
+    "Sherlock",
+    "Mermaid CLI"
+  ]
+}

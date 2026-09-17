@@ -1,0 +1,55 @@
+{
+  "id": 85,
+  "name": "iPayX",
+  "category": "Finance and Fintech",
+  "website": "ipayx.ai/docs",
+  "description": "Neutral FX verification layer for fintech sales teams and FX brokers to audit foreign-exchange transactions and quantify invisible spreads.",
+  "auth_methods": [
+    "token"
+  ],
+  "primary_auth": "token",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "narrow",
+  "api_docs_url": "https://www.ipayx.ai/docs/api",
+  "has_webhooks": false,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://www.ipayx.ai/docs/mcp-server?lang=en",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Every request requires a Bearer token in the Authorization header starting with ipx_live_",
+      "url": "https://www.ipayx.ai/docs/api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "iPayX Protocol is the neutral FX verification layer for fintech sales teams and FX brokers",
+      "url": "https://www.ipayx.ai/developers?lang=en",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "iPayX MCP Server documentation available via official docs",
+      "url": "https://www.ipayx.ai/docs/mcp-server?lang=en",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "iPayX provides a specialized FX audit protocol and offers an official MCP server alongside a REST API requiring a Bearer token (starting with ipx_live_).",
+  "research_timestamp": "2026-09-17T15:05:19.264411",
+  "search_queries_used": [
+    "iPayX API documentation developer",
+    "iPayX authentication OAuth API key developer docs",
+    "site:ipayx.ai/docs API"
+  ],
+  "sources_consulted": 6
+}

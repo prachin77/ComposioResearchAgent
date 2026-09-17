@@ -1,0 +1,51 @@
+{
+  "id": 70,
+  "name": "Sentry",
+  "category": "Developer Infra and Data Platforms",
+  "website": "docs.sentry.io/api",
+  "description": "Error tracking and performance monitoring platform for developers to diagnose, fix, and optimize their code.",
+  "auth_methods": [
+    "oauth2",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://docs.sentry.io/api/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Sentry web API is used to access the Sentry platform programmatically to manage organizations, teams, and data.",
+      "url": "https://docs.sentry.io/api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Sentry supports OAuth2 with the authorization code grant type and personal tokens/internal integrations.",
+      "url": "https://docs.sentry.io/api/auth/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Sentry provides robust API support with OAuth2 authorization code grant flow, token-based authentication via internal integrations or user personal tokens, and regional base domains.",
+  "research_timestamp": "2026-09-17T14:55:58.630093",
+  "search_queries_used": [
+    "Sentry API documentation developer",
+    "Sentry authentication OAuth API key developer docs",
+    "site:docs.sentry.io/api API"
+  ],
+  "sources_consulted": 6
+}

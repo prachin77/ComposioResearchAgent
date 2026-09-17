@@ -1,0 +1,67 @@
+{
+  "id": 2,
+  "name": "HubSpot",
+  "category": "CRM and Sales",
+  "website": "hubspot.com",
+  "description": "A comprehensive CRM platform providing tools for marketing, sales, customer service, and content management with an extensive developer ecosystem.",
+  "auth_methods": [
+    "oauth2",
+    "token",
+    "api_key"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.hubspot.com/docs",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://developers.hubspot.com/ai-tools/mcp",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "HubSpot offers a free account for developers to get started.",
+      "url": "https://developers.hubspot.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "HubSpot supports OAuth2 and Private App Access Tokens for authentication.",
+      "url": "https://blog.hubspot.com/website/application-programming-interface-api",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "HubSpot provides official MCP servers for connecting AI tools to the CRM.",
+      "url": "https://developers.hubspot.com/ai-tools/mcp",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The platform supports webhooks and custom workflow actions.",
+      "url": "https://developers.hubspot.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "HubSpot maintains an official Node.js API client/SDK.",
+      "url": "https://github.hubspot.com/hubspot-api-nodejs/",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "HubSpot has deprecated legacy API keys in favor of Private App Access Tokens and OAuth2. It offers one of the most mature developer platforms in the CRM space, including official MCP servers for AI agents.",
+  "research_timestamp": "2026-09-17T12:47:12.413583",
+  "search_queries_used": [
+    "HubSpot API documentation developer",
+    "HubSpot authentication OAuth API key developer docs",
+    "site:hubspot.com API"
+  ],
+  "sources_consulted": 6
+}

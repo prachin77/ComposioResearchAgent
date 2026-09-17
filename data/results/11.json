@@ -1,0 +1,63 @@
+{
+  "id": 11,
+  "name": "Zendesk",
+  "category": "Support and Helpdesk",
+  "website": "zendesk.com",
+  "description": "A comprehensive customer service platform providing ticketing, help center, chat, voice, and CRM solutions for businesses.",
+  "auth_methods": [
+    "oauth2",
+    "api_key",
+    "basic_auth",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "free_trial",
+  "free_tier_available": false,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.zendesk.com/api-reference/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/michaelrice/zendesk-mcp",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Zendesk provides a REST API for ticketing, help center, live chat, voice, and sales CRM.",
+      "url": "https://developer.zendesk.com/api-reference/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Authentication can be performed via OAuth2, API tokens, or Basic Authentication.",
+      "url": "https://developer.zendesk.com/api-reference/ticketing/introduction/authentication/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Community-built MCP servers exist for Zendesk to expose ticket management tools to AI agents.",
+      "url": "https://github.com/michaelrice/zendesk-mcp",
+      "source_type": "github"
+    },
+    {
+      "claim": "Zendesk offers webhooks through its 'Webhooks' API and integration services (ZIS).",
+      "url": "https://developer.zendesk.com/api-reference/event-connectors/webhooks/webhooks/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Zendesk has one of the most mature API ecosystems in the SaaS space, covering Support, Guide, Chat, Talk, and Sell. Authentication typically uses OAuth2 for third-party integrations and API tokens for internal scripts.",
+  "research_timestamp": "2026-09-17T12:52:55.774057",
+  "search_queries_used": [
+    "Zendesk API documentation developer",
+    "Zendesk authentication OAuth API key developer docs",
+    "site:zendesk.com API"
+  ],
+  "sources_consulted": 3
+}

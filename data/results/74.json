@@ -1,0 +1,58 @@
+{
+  "id": 74,
+  "name": "Jira",
+  "category": "Productivity and Project Management",
+  "website": "developer.atlassian.com",
+  "description": "Issue tracking and project management platform for software development and teams.",
+  "auth_methods": [
+    "oauth2",
+    "basic_auth",
+    "token",
+    "jwt"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://github.com/atlassian/atlassian-mcp-server",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Jira provides a comprehensive version 3 REST API for cloud platforms.",
+      "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "OAuth 2.0 authorization code grants (3LO) and basic authentication are supported.",
+      "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Official Atlassian Model Context Protocol server is available.",
+      "url": "https://github.com/atlassian/atlassian-mcp-server",
+      "source_type": "github"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Jira provides comprehensive REST APIs supporting issues, projects, workflows, users, and webhooks with multiple authentication strategies.",
+  "research_timestamp": "2026-09-17T14:57:56.395773",
+  "search_queries_used": [
+    "Jira API documentation developer",
+    "Jira authentication OAuth API key developer docs",
+    "site:developer.atlassian.com API"
+  ],
+  "sources_consulted": 6
+}

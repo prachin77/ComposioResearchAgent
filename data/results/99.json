@@ -1,0 +1,55 @@
+{
+  "id": 99,
+  "name": "YouTube Transcript",
+  "category": "AI Research and Media-native",
+  "website": "transcriptapi.com",
+  "description": "Programmatically extract, transcribe, and transform YouTube video transcripts and captions at scale via a REST API.",
+  "auth_methods": [
+    "api_key"
+  ],
+  "primary_auth": "api_key",
+  "oauth2_available": false,
+  "access_model": "self_serve",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "moderate",
+  "api_docs_url": "https://transcriptapi.com/docs/api/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "The API uses Bearer token authentication via API keys.",
+      "url": "https://transcriptapi.com/docs/api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Provides REST API endpoints for fetching video transcripts, metadata, search, channels, and playlists.",
+      "url": "https://transcriptapi.com/docs/api/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Supports webhooks for async ASR processing.",
+      "url": "https://www.youtubetranscript.dev/api-docs",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Uses Bearer token API key authentication. Provides comprehensive REST endpoints for fetching transcripts, video info, search, channel data, and playlist data with support for ASR fallback and webhooks.",
+  "research_timestamp": "2026-09-17T15:13:04.397710",
+  "search_queries_used": [
+    "YouTube Transcript API documentation developer",
+    "YouTube Transcript authentication OAuth API key developer docs",
+    "site:transcriptapi.com API"
+  ],
+  "sources_consulted": 5
+}

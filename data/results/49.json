@@ -1,0 +1,55 @@
+{
+  "id": 49,
+  "name": "Amazon Selling Partner",
+  "category": "Ecommerce",
+  "website": "developer-docs.amazon.com/sp-api",
+  "description": "Amazon's REST-based API enabling selling partners and vendors to programmatically access data on orders, shipments, inventory, listings, and payments.",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "admin_approval",
+  "free_tier_available": false,
+  "self_serve_signup": false,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developer-docs.amazon.com/sp-api/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": false,
+  "has_community_mcp": false,
+  "mcp_url": "",
+  "buildability": "gated",
+  "primary_blocker": "Requires Amazon developer account registration and approval, along with specific role configurations.",
+  "blocker_type": "partner",
+  "evidence": [
+    {
+      "claim": "The Selling Partner API (SP-API) is a REST-based API that helps Amazon selling partners programmatically access their data on orders, shipments, payments, and much more.",
+      "url": "https://developer.amazonservices.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "To implement OAuth authorization you must configure your website to accept and process parameters that Amazon passes.",
+      "url": "https://developer-docs-amazon-shipping.readme.io/apis/docs/authorizing-selling-partner-api-applications",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "A role is the mechanism used by Selling Partner APIs to determine whether a developer or application has access to an operation or resource.",
+      "url": "https://developer.amazonservices.com/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Amazon SP-API requires setting up an OAuth authorization workflow (LWA token exchange) and obtaining specific roles to access different resources.",
+  "research_timestamp": "2026-09-17T14:43:27.888052",
+  "search_queries_used": [
+    "Amazon Selling Partner API documentation developer",
+    "Amazon Selling Partner authentication OAuth API key developer docs",
+    "site:developer-docs.amazon.com/sp-api API"
+  ],
+  "sources_consulted": 5
+}

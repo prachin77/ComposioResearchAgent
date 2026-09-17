@@ -1,0 +1,67 @@
+{
+  "id": 6,
+  "name": "Podio",
+  "category": "CRM and Sales",
+  "website": "podio.com",
+  "description": "A customizable project management and CRM platform that allows teams to build their own work apps and automate workflows.",
+  "auth_methods": [
+    "oauth2",
+    "api_key",
+    "token"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "very_broad",
+  "api_docs_url": "https://developers.podio.com/",
+  "has_webhooks": true,
+  "has_official_sdk": true,
+  "has_official_mcp": true,
+  "has_community_mcp": false,
+  "mcp_url": "https://mcp.podio.com/",
+  "buildability": "ready",
+  "primary_blocker": "none",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "The Podio API uses the OAuth2 protocol for authentication and supports multiple flows including server-side and app authentication.",
+      "url": "https://developers.podio.com/authentication",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The API is a complete programmable interface to all Podio functionality, as the entire frontend is built on it.",
+      "url": "https://developers.podio.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Podio provides an official MCP server for integration with AI agents like ChatGPT and Copilot Studio.",
+      "url": "https://mcp.podio.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The API supports webhooks for building event-driven applications.",
+      "url": "https://developers.podio.com/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "Official SDKs are available for PHP, .NET, Ruby, Java, Python, Android, and Objective-C.",
+      "url": "https://developers.podio.com/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Podio provides a highly flexible API because the entire frontend is built on it. They offer multiple OAuth2 flows including a specific 'App authentication' flow for server-to-server scripts. An official MCP server is already available.",
+  "research_timestamp": "2026-09-17T12:49:35.782073",
+  "search_queries_used": [
+    "Podio API documentation developer",
+    "Podio authentication OAuth API key developer docs",
+    "site:podio.com API"
+  ],
+  "sources_consulted": 5
+}

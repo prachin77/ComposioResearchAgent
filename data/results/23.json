@@ -1,0 +1,55 @@
+{
+  "id": 23,
+  "name": "Zoho Cliq",
+  "category": "Communications and Messaging",
+  "website": "zoho.com/cliq",
+  "description": "Zoho Cliq is a team collaboration and messaging application offering chat, channels, bots, and productivity automation tools.",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "primary_auth": "oauth2",
+  "oauth2_available": true,
+  "access_model": "freemium",
+  "free_tier_available": true,
+  "self_serve_signup": true,
+  "has_public_api": true,
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "broad",
+  "api_docs_url": "https://www.zoho.com/cliq/help/restapi/v3/introduction/",
+  "has_webhooks": true,
+  "has_official_sdk": false,
+  "has_official_mcp": true,
+  "has_community_mcp": true,
+  "mcp_url": "https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html",
+  "buildability": "ready",
+  "primary_blocker": "",
+  "blocker_type": "none",
+  "evidence": [
+    {
+      "claim": "Zoho Cliq API uses the OAuth 2.0 protocol for authentication.",
+      "url": "https://www.zoho.com/cliq/help/restapi/v3/introduction/",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "The Zoho Cliq MCP Server brings your chats into the world of AI using the Model Context Protocol (MCP).",
+      "url": "https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html",
+      "source_type": "official_docs"
+    },
+    {
+      "claim": "v3 introduces CRUD API endpoints for bots, slash commands, message actions, widgets, schedulers, and more.",
+      "url": "https://www.zoho.com/cliq/help/restapi/v3/introduction/",
+      "source_type": "official_docs"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Zoho Cliq has comprehensive REST APIs (v2 and v3) covering messages, chats, bots, webhooks, and platform components, alongside official support for Model Context Protocol (MCP).",
+  "research_timestamp": "2026-09-17T14:29:56.905930",
+  "search_queries_used": [
+    "Zoho Cliq API documentation developer",
+    "Zoho Cliq authentication OAuth API key developer docs",
+    "site:zoho.com/cliq API"
+  ],
+  "sources_consulted": 6
+}
